@@ -3,13 +3,13 @@ package com.thinktik.regex;
 public class Demo2_Regex {
 
 	/**
-	 * [abc] a��b �� c�����ࣩ 
-		[^abc] �κ��ַ������� a��b �� c���񶨣� 
-		[a-zA-Z] a �� z �� A �� Z����ͷ����ĸ�������ڣ���Χ�� 
-		[a-d[m-p]] a �� d �� m �� p��[a-dm-p]�������� 
-		[a-z&&[def]] d��e �� f�������� 
-		[a-z&&[^bc]] a �� z������ b �� c��[ad-z]����ȥ�� 
-		[a-z&&[^m-p]] a �� z������ m �� p��[a-lq-z]����ȥ�� 
+	 * [abc] a、b 或 c（简单类） 
+		[^abc] 任何字符，除了 a、b 或 c（否定） 
+		[a-zA-Z] a 到 z 或 A 到 Z，两头的字母包括在内（范围） 
+		[a-d[m-p]] a 到 d 或 m 到 p：[a-dm-p]（并集） 
+		[a-z&&[def]] d、e 或 f（交集） 
+		[a-z&&[^bc]] a 到 z，除了 b 和 c：[ad-z]（减去） 
+		[a-z&&[^m-p]] a 到 z，而非 m 到 p：[a-lq-z]（减去） 
 
 	 */
 	public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class Demo2_Regex {
 	}
 
 	private static void demo5() {
-		String regex = "[a-z&&[def]]";						//ȡ����
+		String regex = "[a-z&&[def]]";						//取交集
 		System.out.println("a".matches(regex));
 		System.out.println("d".matches(regex));
 	}
@@ -64,11 +64,11 @@ public class Demo2_Regex {
 		System.out.println("d".matches(regex));
 		System.out.println("1".matches(regex));
 		System.out.println("%".matches(regex));
-		System.out.println("10".matches(regex));		//10����1�ַ���0�ַ�,���ǵ����ַ�
+		System.out.println("10".matches(regex));		//10代表1字符和0字符,不是单个字符
 	}
 
 	private static void demo1() {
-		String regex = "[abc]";					//[]�������ַ�
+		String regex = "[abc]";					//[]代表单个字符
 		System.out.println("a".matches(regex));
 		System.out.println("b".matches(regex));
 		System.out.println("c".matches(regex));

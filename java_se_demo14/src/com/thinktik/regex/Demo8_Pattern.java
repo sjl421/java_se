@@ -10,14 +10,14 @@ public class Demo8_Pattern {
 		 Matcher m = p.matcher("aaaaab");
 		 boolean b = m.matches();
 		 
-		* A:������ʽ�Ļ�ȡ����
-			* Pattern��Matcher�Ľ��ʹ��
-		* B:������ʾ
-			* ���󣺰�һ���ַ����е��ֻ������ȡ����
+		* A:正则表达式的获取功能
+			* Pattern和Matcher的结合使用
+		* B:案例演示
+			* 需求：把一个字符串中的手机号码获取出来
 	 */
 	public static void main(String[] args) {
 		//demo1();
-		String s = "�ҵ��ֻ���18988888888,�����ù�18987654321,���ù�18812345678";
+		String s = "我的手机是18988888888,我曾用过18987654321,还用过18812345678";
 		String regex = "1[3578]\\d{9}";
 		
 		
@@ -37,13 +37,13 @@ public class Demo8_Pattern {
 	}
 
 	public static void demo1() {
-		Pattern p = Pattern.compile("a*b");					//��ȡ��������ʽ
-		Matcher m = p.matcher("aaaaab");					//��ȡƥ����
-		boolean b = m.matches();							//���Ƿ���ƥ��,ƥ��ͷ���true
+		Pattern p = Pattern.compile("a*b");					//获取到正则表达式
+		Matcher m = p.matcher("aaaaab");					//获取匹配器
+		boolean b = m.matches();							//看是否能匹配,匹配就返回true
 		
 		System.out.println(b);
 		
-		System.out.println("aaaaab".matches("a*b"));  		//������Ľ��һ��
+		System.out.println("aaaaab".matches("a*b"));  		//与上面的结果一样
 	}
 
 }

@@ -3,17 +3,17 @@ package com.thinktik.regex;
 public class Demo1_Regex {
 
 	/**
-	 * * A:������ʽ
-			* ��ָһ��������������ƥ��һϵ�з���ĳ���﷨������ַ����ĵ����ַ�������ʵ����һ�ֹ������Լ������Ӧ�á�
-			* ����:����ע������,�������û���������,һ���������Ƴ���,������Ƴ��ȵ��������������ʽ����
-		* B:������ʾ
-			* ����У��qq����.
-				* 1:Ҫ�������5-15λ����
-				* 2:0���ܿ�ͷ
-				* 3:���붼������
+	 * * A:正则表达式
+			* 是指一个用来描述或者匹配一系列符合某个语法规则的字符串的单个字符串。其实就是一种规则。有自己特殊的应用。
+			* 作用:比如注册邮箱,邮箱有用户名和密码,一般会对其限制长度,这个限制长度的事情就是正则表达式做的
+		* B:案例演示
+			* 需求：校验qq号码.
+				* 1:要求必须是5-15位数字
+				* 2:0不能开头
+				* 3:必须都是数字
 				
-			* a:��������ʽʵ��
-			* b:������ʽʵ��
+			* a:非正则表达式实现
+			* b:正则表达式实现
 	 */
 	public static void main(String[] args) {
 		System.out.println(checkQQ("012345"));
@@ -28,32 +28,32 @@ public class Demo1_Regex {
 	}
 	
 	/*
-	 * ����У��qq����.
-	 * 1:Ҫ�������5-15λ����
-	 * 2:0���ܿ�ͷ
-	 * 3:���붼������
-	 * У��qq
-	 * 1,��ȷ����ֵ����boolean
-	 * 2,��ȷ�����б�String qq
+	 * 需求：校验qq号码.
+	 * 1:要求必须是5-15位数字
+	 * 2:0不能开头
+	 * 3:必须都是数字
+	 * 校验qq
+	 * 1,明确返回值类型boolean
+	 * 2,明确参数列表String qq
 	 */
 	public static boolean checkQQ(String qq) {
-		boolean flag = true;					//���У��qq������Ҫ��Ͱ�flag��Ϊfalse,�������Ҫ��ֱ�ӷ���
+		boolean flag = true;					//如果校验qq不符合要求就把flag置为false,如果符合要求直接返回
 		
 		if(qq.length() >= 5 && qq.length() <= 15) {
 			if(!qq.startsWith("0")) {
-				char[] arr = qq.toCharArray();	//���ַ���ת�����ַ�����
+				char[] arr = qq.toCharArray();	//将字符串转换成字符数组
 				for (int i = 0; i < arr.length; i++) {
-					char ch = arr[i];			//��¼ÿһ���ַ�
+					char ch = arr[i];			//记录每一个字符
 					if(!(ch >= '0' && ch <= '9')) {
-						flag = false;			//��������
+						flag = false;			//不是数字
 						break;
 					}
 				}
 			}else {
-				flag = false;					//��0��ͷ,������qq��׼
+				flag = false;					//以0开头,不符合qq标准
 			}
 		}else {
-			flag = false;						//���Ȳ�����
+			flag = false;						//长度不符合
 		}
 		return flag;
 	}

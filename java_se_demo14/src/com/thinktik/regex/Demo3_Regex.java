@@ -3,13 +3,13 @@ package com.thinktik.regex;
 public class Demo3_Regex {
 
 	/**
-	 * 	. �κ��ַ�
-		\d ���֣�[0-9] 
-		\D �����֣� [^0-9] 
-		\s �հ��ַ���[ \t\n\x0B\f\r] 
-		\S �ǿհ��ַ���[^\s] 
-		\w �����ַ���[a-zA-Z_0-9] 
-		\W �ǵ����ַ���[^\w] 
+	 * 	. 任何字符
+		\d 数字：[0-9] 
+		\D 非数字： [^0-9] 
+		\s 空白字符：[ \t\n\x0B\f\r] 
+		\S 非空白字符：[^\s] 
+		\w 单词字符：[a-zA-Z_0-9] 
+		\W 非单词字符：[^\w] 
 
 	 */
 	public static void main(String[] args) {
@@ -44,8 +44,8 @@ public class Demo3_Regex {
 	private static void demo4() {
 		String regex = "\\s";
 		System.out.println(" ".matches(regex));
-		System.out.println("	".matches(regex)); 				//һ��tab��
-		System.out.println("    ".matches(regex)); 				//�ĸ��ո�
+		System.out.println("	".matches(regex)); 				//一个tab键
+		System.out.println("    ".matches(regex)); 				//四个空格
 	}
 
 	private static void demo3() {
@@ -56,7 +56,7 @@ public class Demo3_Regex {
 	}
 
 	private static void demo2() {
-		String regex = "\\d";					//\����ת���ַ�,������ʾ\d�Ļ�,��Ҫ\\d
+		String regex = "\\d";					//\代表转义字符,如果想表示\d的话,需要\\d
 		System.out.println("0".matches(regex));
 		System.out.println("a".matches(regex));
 		System.out.println("9".matches(regex));
