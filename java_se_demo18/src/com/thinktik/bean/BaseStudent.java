@@ -1,4 +1,4 @@
-package com.heima.bean;
+package com.thinktik.bean;
 
 public class BaseStudent extends Student {
 

@@ -1,46 +1,46 @@
-package com.heima.collections;
+package com.thinktik.collections;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-import com.heima.bean.BaseStudent;
-import com.heima.bean.Student;
+import com.thinktik.bean.BaseStudent;
+import com.thinktik.bean.Student;
 
 public class Demo2_Genric {
 
 	/**
-	 * ·ºĞÍ¹Ì¶¨ÏÂ±ß½ç
+	 * æ³›å‹å›ºå®šä¸‹è¾¹ç•Œ
 	 * ? super E  
 	 * 
-	 * ·ºĞÍ¹Ì¶¨ÉÏ±ß½ç
+	 * æ³›å‹å›ºå®šä¸Šè¾¹ç•Œ
 	 * ? extends E
 	 */
 	public static void main(String[] args) {
 		//demo1();
 		TreeSet<Student> ts1 = new TreeSet<>(new CompareByAge());
-		ts1.add(new Student("ÕÅÈı", 33));
-		ts1.add(new Student("ÀîËÄ", 13));
-		ts1.add(new Student("ÍõÎå", 23));
-		ts1.add(new Student("ÕÔÁù", 43));
+		ts1.add(new Student("å¼ ä¸‰", 33));
+		ts1.add(new Student("æå››", 13));
+		ts1.add(new Student("ç‹äº”", 23));
+		ts1.add(new Student("èµµå…­", 43));
 		
 		TreeSet<BaseStudent> ts2 = new TreeSet<>(new CompareByAge());
-		ts2.add(new BaseStudent("ÕÅÈı", 33));
-		ts2.add(new BaseStudent("ÀîËÄ", 13));
-		ts2.add(new BaseStudent("ÍõÎå", 23));
-		ts2.add(new BaseStudent("ÕÔÁù", 43));
+		ts2.add(new BaseStudent("å¼ ä¸‰", 33));
+		ts2.add(new BaseStudent("æå››", 13));
+		ts2.add(new BaseStudent("ç‹äº”", 23));
+		ts2.add(new BaseStudent("èµµå…­", 43));
 		
 		System.out.println(ts2);
 	}
 
 	public static void demo1() {
 		ArrayList<Student> list1 = new ArrayList<>();
-		list1.add(new Student("ÕÅÈı", 23));
-		list1.add(new Student("ÀîËÄ", 24));
+		list1.add(new Student("å¼ ä¸‰", 23));
+		list1.add(new Student("æå››", 24));
 		
 		ArrayList<BaseStudent> list2 = new ArrayList<>();
-		list2.add(new BaseStudent("ÍõÎå", 25));
-		list2.add(new BaseStudent("ÕÔÁù", 26));
+		list2.add(new BaseStudent("ç‹äº”", 25));
+		list2.add(new BaseStudent("èµµå…­", 26));
 		
 		list1.addAll(list2);
 	}

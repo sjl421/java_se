@@ -1,10 +1,10 @@
-package com.heima.map;
+package com.thinktik.map;
 
 public class Demo4_MapEntry {
 
 	/**
 	 * @param args
-	 * ½âÊÍÒ»¸öMap.Entry
+	 * è§£é‡Šä¸€ä¸ªMap.Entry
 	 */
 	public static void main(String[] args) {
 
