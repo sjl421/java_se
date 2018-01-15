@@ -7,15 +7,15 @@ import java.util.List;
 public class Test3 {
 
 	/**
-	 *  ����:�������е��ظ�Ԫ��ȥ��
+	 *  需求:将集合中的重复元素去掉
 	 *  
-	 *  ����:
-	 *  1,����List���ϴ洢���ɸ��ظ�Ԫ��
-	 *  2,�������巽��ȥ���ظ�
-	 *  3,��ӡһ��List����
+	 *  分析:
+	 *  1,创建List集合存储若干个重复元素
+	 *  2,单独定义方法去除重复
+	 *  3,打印一下List集合
 	 */
 	public static void main(String[] args) {
-		//1,����List���ϴ洢���ɸ��ظ�Ԫ��
+		//1,创建List集合存储若干个重复元素
 		ArrayList<String> list = new ArrayList<>();
 		list.add("a");
 		list.add("a");
@@ -28,28 +28,28 @@ public class Test3 {
 		list.add("c");
 		list.add("c");
 		
-		//2,�������巽��ȥ���ظ�
+		//2,单独定义方法去除重复
 		getSingle(list);
 		
-		//3,��ӡһ��List����
+		//3,打印一下List集合
 		System.out.println(list);
 	}
 	/*
-	 * ����
-	 * ȥ��List�����е��ظ�Ԫ��
-	 * 1,����һ��LinkedHashSet����
-	 * 2,��List���������е�Ԫ����ӵ�LinkedHashSet����
-	 * 3,��list�����е�Ԫ�����
-	 * 4,��LinkedHashSet�����е�Ԫ����ӻ�List������
+	 * 分析
+	 * 去除List集合中的重复元素
+	 * 1,创建一个LinkedHashSet集合
+	 * 2,将List集合中所有的元素添加到LinkedHashSet集合
+	 * 3,将list集合中的元素清除
+	 * 4,将LinkedHashSet集合中的元素添加回List集合中
 	 */
 	public static void getSingle(List<String> list) {
-		//1,����һ��LinkedHashSet����
+		//1,创建一个LinkedHashSet集合
 		LinkedHashSet<String> lhs = new LinkedHashSet<>();
-		//2,��List���������е�Ԫ����ӵ�LinkedHashSet����
+		//2,将List集合中所有的元素添加到LinkedHashSet集合
 		lhs.addAll(list);
-		//3,��list�����е�Ԫ�����
+		//3,将list集合中的元素清除
 		list.clear();
-		//4,��LinkedHashSet�����е�Ԫ����ӻ�List������
+		//4,将LinkedHashSet集合中的元素添加回List集合中
 		list.addAll(lhs);
 	}
 

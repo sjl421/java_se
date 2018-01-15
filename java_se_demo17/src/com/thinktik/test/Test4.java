@@ -8,15 +8,15 @@ import java.util.TreeSet;
 public class Test4 {
 
 	/**
-	 * ��һ�������д洢���������ظ����ַ���,����һ������,��������(�ֵ�˳��),���һ�����ȥ���ظ�
+	 * 在一个集合中存储了无序并且重复的字符串,定义一个方法,让其有序(字典顺序),而且还不能去除重复
 	 * 
-	 * ����:
-	 * 1,����һ��List����,���洢�ظ���������ַ���
-	 * 2,���巽�������������ظ�
-	 * 3,��ӡList����
+	 * 分析:
+	 * 1,定义一个List集合,并存储重复的无序的字符串
+	 * 2,定义方法对其排序保留重复
+	 * 3,打印List集合
 	 */
 	public static void main(String[] args) {
-		//1,����һ��List����,���洢�ظ���������ַ���
+		//1,定义一个List集合,并存储重复的无序的字符串
 		ArrayList<String> list = new ArrayList<>();
 		list.add("aaa");
 		list.add("aaa");
@@ -29,36 +29,36 @@ public class Test4 {
 		list.add("aaa");
 		list.add("aaa");
 		
-		//2,���巽�������������ظ�
+		//2,定义方法对其排序保留重复
 		sort(list);
 		
-		//3,��ӡlist
+		//3,打印list
 		System.out.println(list);
 	}
 	
 	/*
-	 * ���巽��,���򲢱����ظ�
-	 * ����:
-	 * 1,����TreeSet���϶���,��ΪString����;߱��ȽϹ���,�����ظ����ᱣ��,���������ñȽ���
-	 * 2,��list���������е�Ԫ����ӵ�TrreSet������,��������,�����ظ�
-	 * 3,���list����
-	 * 4,��TreeSet�������ź����Ԫ����ӵ�list��
+	 * 定义方法,排序并保留重复
+	 * 分析:
+	 * 1,创建TreeSet集合对象,因为String本身就具备比较功能,但是重复不会保留,所以我们用比较器
+	 * 2,将list集合中所有的元素添加到TrreSet集合中,对其排序,保留重复
+	 * 3,清空list集合
+	 * 4,将TreeSet集合中排好序的元素添加到list中
 	 */
 	public static void sort(List<String> list) {
-		//1,����TreeSet���϶���,��ΪString����;߱��ȽϹ���,�����ظ����ᱣ��,���������ñȽ���
+		//1,创建TreeSet集合对象,因为String本身就具备比较功能,但是重复不会保留,所以我们用比较器
 		TreeSet<String> ts = new TreeSet<>(new Comparator<String>() {
 
 			@Override
 			public int compare(String s1, String s2) {
-				int num = s1.compareTo(s2);					//�Ƚ�����Ϊ��Ҫ����
-				return num == 0 ? 1 : num;					//�����ظ�
+				int num = s1.compareTo(s2);					//比较内容为主要条件
+				return num == 0 ? 1 : num;					//保留重复
 			}
 		});
-		//2,��list���������е�Ԫ����ӵ�TrreSet������,��������,�����ظ�
+		//2,将list集合中所有的元素添加到TrreSet集合中,对其排序,保留重复
 		ts.addAll(list);
-		//3,���list����
+		//3,清空list集合
 		list.clear();
-		//4,��TreeSet�������ź����Ԫ����ӵ�list��
+		//4,将TreeSet集合中排好序的元素添加到list中
 		list.addAll(ts);
 	}
 
