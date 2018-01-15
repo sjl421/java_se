@@ -15,7 +15,7 @@ public class Demo1_FileReader {
 		FileReader fr = new FileReader("xxx.txt");
 		int c;
 		
-		while((c = fr.read()) != -1) {					//ͨ����ĿĬ�ϵ����һ�ζ�ȡһ���ַ�
+		while((c = fr.read()) != -1) {					//通过项目默认的码表一次读取一个字符
 			System.out.print((char)c);
 		}
 		

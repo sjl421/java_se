@@ -18,43 +18,43 @@ public class Demo3_Copy {
 	}
 
 	public static void demo3() throws FileNotFoundException, IOException {
-		//�ڶ��ֿ���,���Ƽ�ʹ��,��Ϊ�п��ܻᵼ���ڴ����
-		FileInputStream fis = new FileInputStream("���ഺ.mp3");		//��������������,�������ഺ.mp3
-		FileOutputStream fos = new FileOutputStream("copy.mp3");	//�������������,����copy.mp3
+		//第二种拷贝,不推荐使用,因为有可能会导致内存溢出
+		FileInputStream fis = new FileInputStream("致青春.mp3");		//创建输入流对象,关联致青春.mp3
+		FileOutputStream fos = new FileOutputStream("copy.mp3");	//创建输出流对象,关联copy.mp3
 		//int len = fis.available();
 		//System.out.println(len);
 		
-		byte[] arr = new byte[fis.available()];						//�������ļ�һ����С���ֽ�����
-		fis.read(arr);												//���ļ��ϵ��ֽڶ�ȡ���ڴ���
-		fos.write(arr);												//���ֽ������е��ֽ�����д���ļ���
+		byte[] arr = new byte[fis.available()];						//创建与文件一样大小的字节数组
+		fis.read(arr);												//将文件上的字节读取到内存中
+		fos.write(arr);												//将字节数组中的字节数据写到文件上
 		
 		fis.close();
 		fos.close();
 	}
 
 	public static void demo2() throws FileNotFoundException, IOException {
-		FileInputStream fis = new FileInputStream("���ഺ.mp3");		//��������������,�������ഺ.mp3
-		FileOutputStream fos = new FileOutputStream("copy.mp3");	//�������������,����copy.mp3
+		FileInputStream fis = new FileInputStream("致青春.mp3");		//创建输入流对象,关联致青春.mp3
+		FileOutputStream fos = new FileOutputStream("copy.mp3");	//创建输出流对象,关联copy.mp3
 		
 		int b;
-		while((b = fis.read()) != -1) {								//�ڲ��ϵĶ�ȡÿһ���ֽ�
-			fos.write(b);											//��ÿһ���ֽ�д��
+		while((b = fis.read()) != -1) {								//在不断的读取每一个字节
+			fos.write(b);											//将每一个字节写出
 		}
 		
-		fis.close();												//�����ͷ���Դ
+		fis.close();												//关流释放资源
 		fos.close();
 	}
 
 	public static void demo1() throws FileNotFoundException, IOException {
-		FileInputStream fis = new FileInputStream("˫Ԫ.jpg");		//��������������,����˫Ԫ.jpg
-		FileOutputStream fos = new FileOutputStream("copy.jpg");	//�������������,����copy.jpg
+		FileInputStream fis = new FileInputStream("双元.jpg");		//创建输入流对象,关联双元.jpg
+		FileOutputStream fos = new FileOutputStream("copy.jpg");	//创建输出流对象,关联copy.jpg
 		
 		int b;
-		while((b = fis.read()) != -1) {								//�ڲ��ϵĶ�ȡÿһ���ֽ�
-			fos.write(b);											//��ÿһ���ֽ�д��
+		while((b = fis.read()) != -1) {								//在不断的读取每一个字节
+			fos.write(b);											//将每一个字节写出
 		}
 		
-		fis.close();												//�����ͷ���Դ
+		fis.close();												//关流释放资源
 		fos.close();
 	}
 

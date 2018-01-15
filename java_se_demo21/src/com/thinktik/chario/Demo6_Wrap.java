@@ -4,8 +4,8 @@ public class Demo6_Wrap {
 
 	/**
 	 * @param args
-	 * װ�����ģʽ�ĺô���:
-	 * ����Բ�ǿ,��װ�ε���ı仯��װ����ı仯�޹�
+	 * 装饰设计模式的好处是:
+	 * 耦合性不强,被装饰的类的变化与装饰类的变化无关
 	 */
 	public static void main(String[] args) {
 		HeiMaStudent hms = new HeiMaStudent(new Student());
@@ -29,21 +29,21 @@ class Student implements Coder {
 }
 
 class HeiMaStudent implements Coder {
-	//1,��ȡ��װ���������
-	private Student s;						//��ȡѧ������
+	//1,获取被装饰类的引用
+	private Student s;						//获取学生引用
 	
-	//2,�ڹ��췽���д��뱻װ����Ķ���
+	//2,在构造方法中传入被装饰类的对象
 	public HeiMaStudent(Student s) {
 		this.s = s;
 	}
 
-	//3,��ԭ�еĹ��ܽ�������
+	//3,对原有的功能进行升级
 	@Override
 	public void code() {
 		s.code();
 		System.out.println("ssh");
-		System.out.println("���ݿ�");
-		System.out.println("������");
+		System.out.println("数据库");
+		System.out.println("大数据");
 		System.out.println("...");
 	}
 }

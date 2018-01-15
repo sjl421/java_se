@@ -11,13 +11,13 @@ public class Demo4_Buffered {
 
 	/**
 	 * @param args
-	 * �������������е����ⷽ��
+	 * 带缓冲区的流中的特殊方法
 	 * readLine()
 	 * newLine();
 	 * 
-	 * newLine()��\r\n������
-	 * newLine()�ǿ�ƽ̨�ķ���
-	 * \r\nֻ֧�ֵ���windowsϵͳ
+	 * newLine()与\r\n的区别
+	 * newLine()是跨平台的方法
+	 * \r\n只支持的是windows系统
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
@@ -28,7 +28,7 @@ public class Demo4_Buffered {
 		String line;
 		while((line = br.readLine()) != null) {
 			bw.write(line);
-			//bw.newLine();							//д���س����з�
+			//bw.newLine();							//写出回车换行符
 			//bw.write("\r\n");
 		}
 		

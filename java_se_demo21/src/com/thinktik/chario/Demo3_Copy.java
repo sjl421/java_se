@@ -35,8 +35,8 @@ public class Demo3_Copy {
 		
 		char[] arr = new char[1024];
 		int len;
-		while((len = fr.read(arr)) != -1) {			//���ļ��ϵ����ݶ�ȡ���ַ�������
-			fw.write(arr,0,len);					//���ַ������е�����д���ļ���
+		while((len = fr.read(arr)) != -1) {			//将文件上的数据读取到字符数组中
+			fw.write(arr,0,len);					//将字符数组中的数据写到文件上
 		}
 		
 		fr.close();
@@ -44,8 +44,8 @@ public class Demo3_Copy {
 	}
 
 	public static void demo2() throws FileNotFoundException, IOException {
-		//�ַ������ܿ������ı����ļ�
-		FileReader fr = new FileReader("˫Ԫ.jpg");
+		//字符流不能拷贝纯文本的文件
+		FileReader fr = new FileReader("双元.jpg");
 		FileWriter fw = new FileWriter("copy.jpg");
 		
 		int c;
@@ -67,7 +67,7 @@ public class Demo3_Copy {
 		}
 		
 		fr.close();
-		fw.close();				//Writer������һ��2k��С������,���������,�ͻὫ����д����������,�����Ὣ����������ˢ��,�ٹر�
+		fw.close();				//Writer类中有一个2k的小缓冲区,如果不关流,就会将内容写到缓冲区里,关流会将缓冲区内容刷新,再关闭
 	}
 
 }

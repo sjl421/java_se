@@ -12,7 +12,7 @@ public class Test1 {
 	/**
 	 * @param args
 	 * @throws IOException 
-	 * ��д�����ֽ������һ����,�����������Կ,���ܵ�ʱ���ٴ����Ϳ�����
+	 * 将写出的字节异或上一个数,这个数就是密钥,解密的时候再次异或就可以了
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedInputStream bis = new BufferedInputStream(new FileInputStream("copy.jpg"));

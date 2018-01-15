@@ -40,7 +40,7 @@ public class Demo7_TryFinally {
 			try{
 				if(fis != null)
 					fis.close();
-			}finally {							//try fianlly��Ƕ��Ŀ�����ܹ�һ��������һ��
+			}finally {							//try fianlly的嵌套目的是能关一个尽量关一个
 				if(fos != null)
 					fos.close();
 			}
@@ -51,6 +51,6 @@ public class Demo7_TryFinally {
 
 class MyClose implements AutoCloseable {
 	public void close() {
-		System.out.println("�ҹ���");
+		System.out.println("我关了");
 	}
 }
