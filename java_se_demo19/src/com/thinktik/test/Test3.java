@@ -7,20 +7,20 @@ public class Test3 {
 
 	/**
 	 * @param args
-	 * * A:������ʾ
-	 * �����ж�E��Ŀ¼���Ƿ��к�׺��Ϊ.jpg���ļ�������У���������ļ�����
+	 * * A:案例演示
+	 * 需求：判断E盘目录下是否有后缀名为.jpg的文件，如果有，就输出该文件名称
 	 */
 	public static void main(String[] args) {
 		File dir = new File("E:\\");
 		
-//		String[] arr = dir.list();					//��ȡe�������е��ļ����ļ���
+//		String[] arr = dir.list();					//获取e盘下所有的文件或文件夹
 //		for (String string : arr) {
 //			if(string.endsWith(".jpg")) {
 //				System.out.println(string);
 //			}
 //		}
 		
-		/*File[] subFiles = dir.listFiles();			//��ȡe�������е��ļ����ļ��ж���
+		/*File[] subFiles = dir.listFiles();			//获取e盘下所有的文件或文件夹对象
 		
 		for (File subFile : subFiles) {
 			if(subFile.isFile() && subFile.getName().endsWith(".jpg")) {

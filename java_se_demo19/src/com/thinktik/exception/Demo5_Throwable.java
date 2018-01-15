@@ -3,23 +3,23 @@ package com.thinktik.exception;
 public class Demo5_Throwable {
 
 	/**
-	 * * A:Throwable�ļ�����������
+	 * * A:Throwable的几个常见方法
 			* a:getMessage()
-				* ��ȡ�쳣��Ϣ�������ַ�����
+				* 获取异常信息，返回字符串。
 			* b:toString()
-				* ��ȡ�쳣�������쳣��Ϣ�������ַ�����
+				* 获取异常类名和异常信息，返回字符串。
 			* c:printStackTrace()
-				* ��ȡ�쳣�������쳣��Ϣ���Լ��쳣�����ڳ����е�λ�á�����ֵvoid��
-		* B:������ʾ
-			* Throwable�ļ������������Ļ���ʹ��
+				* 获取异常类名和异常信息，以及异常出现在程序中的位置。返回值void。
+		* B:案例演示
+			* Throwable的几个常见方法的基本使用
 	 */
 	public static void main(String[] args) {
 		try {
 			System.out.println(1/0);
 		} catch (Exception e) {			//Exception e = new ArithmeticException("/ by zero");
-			//System.out.println(e.getMessage());		//��ȡ�쳣��Ϣ
-			//System.out.println(e); 		//����toString����,��ӡ�쳣�������쳣��Ϣ
-			e.printStackTrace();		//jvmĬ�Ͼ������ַ�ʽ�����쳣
+			//System.out.println(e.getMessage());		//获取异常信息
+			//System.out.println(e); 		//调用toString方法,打印异常类名和异常信息
+			e.printStackTrace();		//jvm默认就用这种方式处理异常
 		}
 	}
 

@@ -6,15 +6,15 @@ import java.io.IOException;
 public class Demo2_FileMethod {
 
 	/**
-	 * * A:��������
-			* public boolean createNewFile():�����ļ� ��������������ļ����Ͳ�������
-			* public boolean mkdir():�����ļ��� ��������������ļ��У��Ͳ�������
-			* public boolean mkdirs():�����ļ���,������ļ��в����ڣ�����㴴������
-		* B:������ʾ
-			* File��Ĵ�������
+	 * * A:创建功能
+			* public boolean createNewFile():创建文件 如果存在这样的文件，就不创建了
+			* public boolean mkdir():创建文件夹 如果存在这样的文件夹，就不创建了
+			* public boolean mkdirs():创建文件夹,如果父文件夹不存在，会帮你创建出来
+		* B:案例演示
+			* File类的创建功能
 		
-			* ע�����
-				* ����㴴���ļ������ļ�������д�̷�·������ô��Ĭ������Ŀ·���¡�
+			* 注意事项：
+				* 如果你创建文件或者文件夹忘了写盘符路径，那么，默认在项目路径下。
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
@@ -22,16 +22,16 @@ public class Demo2_FileMethod {
 		File dir1 = new File("aaa");
 		System.out.println(dir1.mkdir());
 		
-		File dir2 = new File("bbb.txt");				//����д�ǿ��Ե�,�ļ���Ҳ�ǿ����к�׺��
+		File dir2 = new File("bbb.txt");				//这样写是可以的,文件夹也是可以有后缀的
 		System.out.println(dir2.mkdir());
 		
 		File dir3 = new File("ccc\\ddd");
-		System.out.println(dir3.mkdirs()); 				//�����༶Ŀ¼
+		System.out.println(dir3.mkdirs()); 				//创建多级目录
 	}
 
 	public static void demo1() throws IOException {
 		File file = new File("yyy.txt");
-		System.out.println(file.createNewFile());			//���û�оʹ���,����true
+		System.out.println(file.createNewFile());			//如果没有就创建,返回true
 		
 		File file2 = new File("zzz");
 		System.out.println(file2.createNewFile());

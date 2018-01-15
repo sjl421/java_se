@@ -7,19 +7,19 @@ import java.util.Date;
 public class Demo5_FileMethod {
 
 	/**
-	 * * A:��ȡ����
-		* public String getAbsolutePath()����ȡ����·��
-		* public String getPath():��ȡ·��
-		* public String getName():��ȡ����
-		* public long length():��ȡ���ȡ��ֽ���
-		* public long lastModified():��ȡ���һ�ε��޸�ʱ�䣬����ֵ
-		* public String[] list():��ȡָ��Ŀ¼�µ������ļ������ļ��е���������
-		* public File[] listFiles():��ȡָ��Ŀ¼�µ������ļ������ļ��е�File���� 
+	 * * A:获取功能
+		* public String getAbsolutePath()：获取绝对路径
+		* public String getPath():获取路径
+		* public String getName():获取名称
+		* public long length():获取长度。字节数
+		* public long lastModified():获取最后一次的修改时间，毫秒值
+		* public String[] list():获取指定目录下的所有文件或者文件夹的名称数组
+		* public File[] listFiles():获取指定目录下的所有文件或者文件夹的File数组 
 	 */
 	public static void main(String[] args) {
 		//demo1();
-		File dir = new File("F:/˫Ԫ����/day19/video");
-		String[] arr = dir.list();						//��Ϊ�˻�ȡ�ļ���
+		File dir = new File("F:/双元课堂/day19/video");
+		String[] arr = dir.list();						//仅为了获取文件名
 		
 		for (String string : arr) {
 			System.out.println(string);
@@ -27,27 +27,27 @@ public class Demo5_FileMethod {
 		
 		File[] subFiles = dir.listFiles();
 		
-		for (File file : subFiles) {					//��ȡ�ļ�����
+		for (File file : subFiles) {					//获取文件对象
 			System.out.println(file);
 		}
  	}
 
 	public static void demo1() {
 		File file1 = new File("ccc.txt");
-		File file2 = new File("D:\\˫Ԫ����\\day19\\ccc.txt");
-		//System.out.println(file1.getAbsolutePath());			//��ȡ����·��
+		File file2 = new File("D:\\双元课堂\\day19\\ccc.txt");
+		//System.out.println(file1.getAbsolutePath());			//获取绝对路径
 		//System.out.println(file2.getAbsolutePath());
 		
-		//System.out.println(file1.getPath());					//��ȡ���췽���д���·��
+		//System.out.println(file1.getPath());					//获取构造方法中传入路径
 		//System.out.println(file2.getPath());
 		
-//		System.out.println(file1.getName());					//��ȡ�ļ������ļ�������
+//		System.out.println(file1.getName());					//获取文件或者文件的名字
 //		System.out.println(file2.getName());
 //		
 //		System.out.println(file1.length());
 		
-		Date d = new Date(file1.lastModified());				//�ļ�������޸�ʱ��
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy��MM��dd�� HH:mm:ss");
+		Date d = new Date(file1.lastModified());				//文件的最后修改时间
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
 		System.out.println(sdf.format(d));
 	}
 

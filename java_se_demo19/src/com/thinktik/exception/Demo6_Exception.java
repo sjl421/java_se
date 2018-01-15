@@ -3,13 +3,13 @@ package com.thinktik.exception;
 public class Demo6_Exception {
 
 	/**
-	 * * A:throws�ķ�ʽ�����쳣
-			* ���幦�ܷ���ʱ����Ҫ�ѳ��ֵ����Ⱪ¶�����õ�����ȥ����
-			* ��ô��ͨ��throws�ڷ����ϱ�ʶ��
-		* B:������ʾ
-			* �����ֱ���ʾ����ʱ�쳣������ʱ�쳣���׳�
-			* ����ʱ�쳣���׳����������д���
-			* ����ʱ�쳣���׳����Դ���Ҳ���Բ�����
+	 * * A:throws的方式处理异常
+			* 定义功能方法时，需要把出现的问题暴露出来让调用者去处理。
+			* 那么就通过throws在方法上标识。
+		* B:案例演示
+			* 举例分别演示编译时异常和运行时异常的抛出
+			* 编译时异常的抛出必须对其进行处理
+			* 运行时异常的抛出可以处理也可以不处理
 	 * @throws Exception 
 	 */
 	public static void main(String[] args) throws Exception {
@@ -45,9 +45,9 @@ class Person {
 		if(age >0 && age <= 150) {
 			this.age = age;
 		}else {
-			//Exception e = new Exception("����Ƿ�");
+			//Exception e = new Exception("年龄非法");
 			//throw e;
-			throw new AgeOutOfBoundsException("����Ƿ�");
+			throw new AgeOutOfBoundsException("年龄非法");
 		}
 	}
 	
