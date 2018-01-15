@@ -6,21 +6,21 @@ public class Stack {
 	private LinkedList list = new LinkedList();
 	
 	/*
-	 * ģ���ջ����
+	 * 模拟进栈方法
 	 */
 	public void in(Object obj) {
 		list.addLast(obj);
 	}
 	
 	/*
-	 * ģ���ջ
+	 * 模拟出栈
 	 */
 	public Object out() {
 		return list.removeLast();
 	}
 	
 	/*
-	 * ģ��ջ�ṹ�Ƿ�Ϊ��
+	 * 模拟栈结构是否为空
 	 */
 	
 	public boolean isEmpty() {

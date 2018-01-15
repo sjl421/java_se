@@ -7,9 +7,9 @@ import java.util.Iterator;
 public class Demo1_ArrayList {
 
 	/**
-	 * * A:������ʾ
-		* ����ArrayListȥ���������ַ������ظ�ֵ(�ַ�����������ͬ)
-		* ˼·�������¼��Ϸ�ʽ
+	 * * A:案例演示
+		* 需求：ArrayList去除集合中字符串的重复值(字符串的内容相同)
+		* 思路：创建新集合方式
 	 */
 	public static void main(String[] args) {
 		ArrayList list = new ArrayList();
@@ -27,24 +27,24 @@ public class Demo1_ArrayList {
 	}
 
 	/*
-	 * �����¼��Ͻ��ظ�Ԫ��ȥ��
-	 * 1,��ȷ����ֵ����,����ArrayList
-	 * 2,��ȷ�����б�ArrayList
+	 * 创建新集合将重复元素去掉
+	 * 1,明确返回值类型,返回ArrayList
+	 * 2,明确参数列表ArrayList
 	 * 
-	 * ����:
-	 * 1,�����¼���
-	 * 2,���ݴ���ļ���(�ϼ���)��ȡ������
-	 * 3,�����ϼ���
-	 * 4,ͨ���¼����ж��Ƿ�����ϼ����е�Ԫ��,��������Ͳ����,��������������
+	 * 分析:
+	 * 1,创建新集合
+	 * 2,根据传入的集合(老集合)获取迭代器
+	 * 3,遍历老集合
+	 * 4,通过新集合判断是否包含老集合中的元素,如果包含就不添加,如果不包含就添加
 	 */
 	public static ArrayList getSingle(ArrayList list) {
-		ArrayList newList = new ArrayList<>();					//1,�����¼���
-		Iterator it = list.iterator();							//2,���ݴ���ļ���(�ϼ���)��ȡ������
+		ArrayList newList = new ArrayList<>();					//1,创建新集合
+		Iterator it = list.iterator();							//2,根据传入的集合(老集合)获取迭代器
 		
-		while(it.hasNext()) {									//3,�����ϼ���
-			Object obj = it.next();								//��¼סÿһ��Ԫ��
-			if(!newList.contains(obj)) {						//����¼����в������ϼ����е�Ԫ��
-				newList.add(obj);								//����Ԫ�����
+		while(it.hasNext()) {									//3,遍历老集合
+			Object obj = it.next();								//记录住每一个元素
+			if(!newList.contains(obj)) {						//如果新集合中不包含老集合中的元素
+				newList.add(obj);								//将该元素添加
 			}
 		}
 		

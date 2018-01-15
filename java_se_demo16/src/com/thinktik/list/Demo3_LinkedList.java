@@ -5,9 +5,9 @@ import java.util.LinkedList;
 public class Demo3_LinkedList {
 
 	/**
-	 * 	 public void addFirst(E e)��addLast(E e)
-		* public E getFirst()��getLast()
-		* public E removeFirst()��public E removeLast()
+	 * 	 public void addFirst(E e)及addLast(E e)
+		* public E getFirst()及getLast()
+		* public E removeFirst()及public E removeLast()
 		* public E get(int index);
 	 */
 	public static void main(String[] args) {
