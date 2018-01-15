@@ -18,15 +18,15 @@ public class Demo4_ListIterator {
 		list.add("d");
 		list.add("e");
 		
-		ListIterator lit = list.listIterator();			//��ȡ������
+		ListIterator lit = list.listIterator();			//获取迭代器
 		while(lit.hasNext()) {
-			System.out.println(lit.next()); 			//��ȡԪ�ز���ָ������ƶ�
+			System.out.println(lit.next()); 			//获取元素并将指针向后移动
 		}
 		
 		System.out.println("-----------------");
 		
 		while(lit.hasPrevious()) {
-			System.out.println(lit.previous()); 		//��ȡԪ�ز���ָ����ǰ�ƶ�
+			System.out.println(lit.previous()); 		//获取元素并将指针向前移动
 		}
 	}
 

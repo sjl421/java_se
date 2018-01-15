@@ -7,9 +7,9 @@ import java.util.Collection;
 public class Demo4_CollectionAll {
 
 	/**
-	 * * A:������ʾ
+	 * * A:案例演示
 		* 
-				��All�Ĺ�����ʾ
+				带All的功能演示
 				boolean addAll(Collection c)
 				boolean removeAll(Collection c)
 				boolean containsAll(Collection c)
@@ -33,8 +33,8 @@ public class Demo4_CollectionAll {
 		c2.add("e");
 		c2.add("f");
 		
-		//ȡ����,������õļ��ϸı�ͷ���true,������õļ��ϲ���ͷ���false
-		boolean b = c1.retainAll(c2);					//ȡ����
+		//取交集,如果调用的集合改变就返回true,如果调用的集合不变就返回false
+		boolean b = c1.retainAll(c2);					//取交集
 		System.out.println(b);
 		System.out.println(c1);
 	}
@@ -51,7 +51,7 @@ public class Demo4_CollectionAll {
 		c2.add("b");
 		c2.add("z");
 		
-		boolean b = c1.containsAll(c2);				//�жϵ��õļ����Ƿ��������ļ���
+		boolean b = c1.containsAll(c2);				//判断调用的集合是否包含传入的集合
 		System.out.println(b);
 	}
 
@@ -67,7 +67,7 @@ public class Demo4_CollectionAll {
 		c2.add("b");
 		c2.add("z");
 		
-		boolean b = c1.removeAll(c2);					//ɾ�����ǽ���
+		boolean b = c1.removeAll(c2);					//删除的是交集
 		System.out.println(b);
 		System.out.println(c1);
 	}
@@ -79,14 +79,14 @@ public class Demo4_CollectionAll {
 		c1.add("c");
 		c1.add("d");
 		
-		Collection c2 = new ArrayList();			//alt + shift + r����
+		Collection c2 = new ArrayList();			//alt + shift + r改名
 		c2.add("a");
 		c2.add("b");
 		c2.add("c");
 		c2.add("d");
 		
-		//c1.addAll(c2);							//��c2�е�ÿһ��Ԫ����ӵ�c1��
-		c1.add(c2);									//��c2����һ��������ӵ�c1��
+		//c1.addAll(c2);							//将c2中的每一个元素添加到c1中
+		c1.add(c2);									//将c2看成一个对象添加到c1中
 		System.out.println(c1);
 	}
 
