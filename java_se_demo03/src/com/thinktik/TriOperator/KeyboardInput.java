@@ -2,7 +2,7 @@ package com.thinktik.TriOperator;
 
 import java.util.Scanner;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 /**
  * @author think 2018年1月13日下午10:43:42
