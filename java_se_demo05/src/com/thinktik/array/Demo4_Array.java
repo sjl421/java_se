@@ -1,5 +1,10 @@
 package com.thinktik.array;
 
+/**
+ * @author think
+ * 2018年1月16日下午11:52:59
+ * 
+ */
 class Demo4_Array {
 	public static void main(String[] args) {
 		int[] arr1 = new int[3];				//创建数组,长度为3

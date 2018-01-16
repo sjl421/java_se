@@ -22,6 +22,11 @@ package com.thinktik.array2;
 * E:案例演示
 	* 定义二维数组，输出二维数组名称，一维数组名称，一个元素
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:59:45
+ * 
+ */
 class Demo1_Array {
 	public static void main(String[] args) {
 		int[][] arr = new int[3][2];

@@ -1,10 +1,15 @@
 package com.thinktik.array;
 
-/*
-* A:案例演示
-	* 数组查表法(根据键盘录入索引,查找对应星期)
-*/
 import java.util.Scanner;
+/**
+ * @author think
+ * 2018年1月16日下午11:49:20
+ * 
+ */
+/*
+ * A:案例演示
+ * 数组查表法(根据键盘录入索引,查找对应星期)
+ */
 class Demo11_Array {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

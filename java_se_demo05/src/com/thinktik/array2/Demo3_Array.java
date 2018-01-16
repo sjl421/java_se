@@ -7,6 +7,11 @@ package com.thinktik.array2;
 * C:案例演示
 	* 讲解格式，输出数据，并画内存图
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:59:37
+ * 
+ */
 class Demo3_Array {
 	public static void main(String[] args) {
 		int[][] arr = new int[3][];				//这是一个二维数组,这个二维数组中有三个一维数组,三个一维数组都没有被赋值

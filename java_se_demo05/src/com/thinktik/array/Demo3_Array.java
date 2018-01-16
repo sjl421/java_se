@@ -13,6 +13,11 @@ package com.thinktik.array;
 * E:寄存器
 	* 给CPU使用
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:52:02
+ * 
+ */
 class Demo3_Array {
 	public static void main(String[] args) {
 		int[] arr = new int[3];						//动态初始化,创建3块连续的空间

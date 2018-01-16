@@ -10,6 +10,11 @@ package com.thinktik.array;
 * C:数组定义格式
 	数据类型[] 数组名 = new 数据类型[数组的长度];
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:48:39
+ * 
+ */
 class Demo1_Array {
 	public static void main(String[] args) {
 		int x = 10;

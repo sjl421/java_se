@@ -4,6 +4,11 @@ package com.thinktik.array;
 * A:案例演示
 	* 数组元素反转(就是把元素对调)
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:48:44
+ * 
+ */
 class Demo10_Array {
 	public static void main(String[] args) {
 		int[] arr = {11,22,33,44,55};

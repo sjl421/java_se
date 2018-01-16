@@ -10,6 +10,11 @@ package com.thinktik.array2;
 		第三季度：25,45,65
 		第四季度：11,66,99
 */
+/**
+ * @author think
+ * 2018年1月17日上午12:00:29
+ * 
+ */
 class Test2_Array {
 	public static void main(String[] args) {
 		int[][] arr = {{22,66,44},{77,33,88},{25,45,65},{11,66,99}};

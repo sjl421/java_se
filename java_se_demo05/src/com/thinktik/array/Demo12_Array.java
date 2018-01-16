@@ -4,6 +4,11 @@ package com.thinktik.array;
 * A:案例演示
 	* 数组元素查找(查找指定元素第一次在数组中出现的索引)
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:49:56
+ * 
+ */
 class Demo12_Array {
 	public static void main(String[] args) {
 		int[] arr = {11,22,33,44,55,66,77};
@@ -22,7 +27,6 @@ class Demo12_Array {
 			if (arr[i] == value) {							//如果数组中的元素与查找的元素匹配
 				return i;
 			}
-
 		}
 		return -1;
 		

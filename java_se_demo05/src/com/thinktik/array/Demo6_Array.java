@@ -11,6 +11,11 @@ package com.thinktik.array;
 * C:画图演示
 	* 一个数组
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:55:02
+ * 
+ */
 class Demo6_Array {
 	public static void main(String[] args) {
 		//数据类型[] 数组名 = new 数据类型[]{元素1,元素2,…};

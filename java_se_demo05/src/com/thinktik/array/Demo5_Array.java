@@ -1,6 +1,11 @@
 package com.thinktik.array;
 
 //三个引用两个数组
+/**
+ * @author think
+ * 2018年1月16日下午11:53:02
+ * 
+ */
 class Demo5_Array {
 	public static void main(String[] args) {
 		int[] arr1 = new int[3];

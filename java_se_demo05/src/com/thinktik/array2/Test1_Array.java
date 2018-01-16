@@ -8,6 +8,11 @@ package com.thinktik.array2;
 	* 内循环控制的是一维数组的长度。
 
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:59:54
+ * 
+ */
 class Test1_Array {
 	public static void main(String[] args) {
 		int[][] arr = {{1,2,3},{4,5},{6,7,8,9}};

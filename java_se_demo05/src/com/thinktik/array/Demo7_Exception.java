@@ -10,6 +10,11 @@ package com.thinktik.array;
 		* arr = null;
 		* System.out.println(arr[0]);
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:55:35
+ * 
+ */
 class Demo7_Exception {
 	public static void main(String[] args) {
 		int[] arr = new int[5];						//0x0011

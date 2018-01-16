@@ -4,6 +4,11 @@ package com.thinktik.array;
 * A:案例演示
 	* 数组获取最值(获取数组中的最大值最小值)
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:58:02
+ * 
+ */
 class Demo9_Array {
 	public static void main(String[] args) {
 		int[] arr = {33,77,22,44,55};

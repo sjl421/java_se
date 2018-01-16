@@ -8,6 +8,11 @@ Java中到底是传值还是传址
 1,既是传值,也是传地址,基本数据类型传递的值,引用数据类型传递的地址
 2,java中只有传值,因为地址值也是值(出去面试都说这种,支持者是高司令(java之父))
 */
+/**
+ * @author think
+ * 2018年1月17日上午12:00:33
+ * 
+ */
 class Test3_Array {
 	public static void main(String[] args) {
 		/*int a = 10;

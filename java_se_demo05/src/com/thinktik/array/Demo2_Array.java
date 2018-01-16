@@ -26,6 +26,11 @@ package com.thinktik.array;
 	@是固定的
 	19bb25a代表的是数组的地址值
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:51:58
+ * 
+ */
 class Demo2_Array {
 	public static void main(String[] args) {
 		//数据类型[] 数组名 = new 数据类型[数组长度];

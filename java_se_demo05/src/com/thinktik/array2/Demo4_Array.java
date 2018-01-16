@@ -7,6 +7,11 @@ package com.thinktik.array2;
 * C:案例演示
 	* 讲解格式，输出数据，并画内存图
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:59:50
+ * 
+ */
 class Demo4_Array {
 	public static void main(String[] args) {
 		int[][] arr = {{1,2,3},{4,5},{6,7,8,9}}; //这是一个二维数组,这个二维数组中每个大括号都代表一个一维数组
