@@ -11,7 +11,7 @@ public class Convert { // scale 2,8,10,16进制
 		 */
 		System.out.println(0b100); // 4? 二进制表示形式前面加0b(b可以大写也可以小写)
 		System.out.println(0100); // 64? 八进制表示形式前面加0
-		System.out.println(100);
+		System.out.println(100);	// 十进制
 		System.out.println(0x100); // 256? 十六进制表示形式前面加0x(可以大写也可以小写)
 	}
 }

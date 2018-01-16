@@ -15,6 +15,7 @@ public class DataType {
 		System.out.println(s);
 		System.out.println(i);
 		System.out.println(x);
+		System.out.println(Integer.BYTES);// 4个字节
 
 		// System.out.println(12345 + 54321l);
 

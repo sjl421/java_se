@@ -12,7 +12,7 @@ public class DataTypeConversion {
 		/*int x = 3;
 		byte b = 4;
 
-		x = x + b;
+		x = x + b; //发生隐式转换
 
 		System.out.println(x);*/
 
@@ -20,7 +20,7 @@ public class DataTypeConversion {
 		/*int x = 3;
 		byte b = 4;
 
-		b = (byte)(x + b);
+		b = (byte)(x + b); //发生显示转换
 		System.out.println(b);*/
 
 		//00000000 00000000 00000000 10000010			130的二进制
@@ -39,7 +39,7 @@ public class DataTypeConversion {
 		//System.out.println((char)('a' + 1));
 
 		System.out.println("hello"+'a'+1);		//任何数据类型用+与字符串相连接都会产生新的字符串
-		System.out.println('a'+1+"hello");		//98hello
+		System.out.println('a'+1+"hello");		//98hello 因为有ASCII码表,a字符对应的是int类型的97
 
 		System.out.println(" 5 + 5 = " + (5 + 5));
 	}

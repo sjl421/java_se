@@ -7,7 +7,7 @@ package com.thinktik.chartype;
  */
 public class CharType {
 	public static void main(String[] args) {
-		char c = 'a'; // 占2个字节 底层以ascii数字的形式保存
+		char c = 'a'; // 占2个字节 底层以ascii数字的形式保存 使用unicode编码所以2个字节
 		System.out.println(c);
 
 		byte b = 100;		// 一个字节  -127 --- 128
@@ -19,7 +19,7 @@ public class CharType {
 		char c4 = 5;
 		char c5 = 6;
 
-		System.out.println(c2); //不是3 而是ascii编码为3的字符
+		System.out.println(c2); //输出  不是3 而是ascii编码为3的字符
 		System.out.println(c3);
 		System.out.println(c4);
 		System.out.println(c5);

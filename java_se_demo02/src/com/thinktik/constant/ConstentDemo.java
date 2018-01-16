@@ -13,8 +13,8 @@ public class ConstentDemo { //constant 常量学习
 		System.out.println("abc");		//字符串常量
 		System.out.println(123);		//整数常量
 		System.out.println(12.3);		//小数常量
-		//System.out.println('10');		//error   ''中必须放的是单个字符,10代表的是1字符和0字符
-		//System.out.println('');		//error   ''中什么也不放,也是不可以的,因为代表不了任何字符
+		//System.out.println('10');		//error:   ''中必须放的是单个字符,10代表的是1字符和0字符
+		//System.out.println('');		//error:   ''中什么也不放,也是不可以的,因为代表不了任何字符
 		System.out.println(' ');		//带表空格字符
 		System.out.println(true);		//boolean类只有两个值,true和false
 		System.out.println(false);
