@@ -1,5 +1,10 @@
 package com.thinktik.whileloop;
 
+/**
+ * @author think
+ * 2018年1月16日下午11:47:27
+ * 
+ */
 class Test1_While {
 	public static void main(String[] args) {
 		/*

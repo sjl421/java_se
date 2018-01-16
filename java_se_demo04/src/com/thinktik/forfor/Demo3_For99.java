@@ -13,6 +13,11 @@ package com.thinktik.forfor;
 **
 ***
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:44:54
+ * 
+ */
 class Demo3_For99 {
 	public static void main(String[] args) {
 		/*for (int i = 1;i <= 9 ;i++ ) {					//行数

@@ -15,6 +15,11 @@ package com.thinktik.forfor;
 * B:结论：
 	* 外循环控制行数，内循环控制列数
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:44:44
+ * 
+ */
 class Demo1_ForFor {
 	public static void main(String[] args) {
 		/*for (int i = 1;i <= 3 ;i++ ) {					//外循环

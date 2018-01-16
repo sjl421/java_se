@@ -1,9 +1,14 @@
 package com.thinktik.controller;
 
+/**
+ * @author think
+ * 2018年1月16日下午11:43:26
+ * 
+ */
 /*
-* A:break的使用场景
-	* 只能在switch和循环中 
-*/
+ * A:break的使用场景
+ * 只能在switch和循环中 
+ */
 class Demo1_Break {
 	public static void main(String[] args) {
 		for (int x = 1;x <= 10 ;x++ ) {

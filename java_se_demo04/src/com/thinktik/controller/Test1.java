@@ -1,4 +1,9 @@
 package com.thinktik.controller;
+/**
+ * @author think
+ * 2018年1月16日下午11:43:50
+ * 
+ */
 
 /*
 		for(int x=1; x<=10; x++) {

@@ -24,6 +24,11 @@ package com.thinktik.dowhileloop;
 * C:案例演示
 	* 需求：请在控制台输出数据1-10
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:44:31
+ * 
+ */
 class Demo1_DoWhile {
 	public static void main(String[] args) {
 		//while 和do while的区别

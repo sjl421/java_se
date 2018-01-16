@@ -9,6 +9,11 @@ package com.thinktik.forloop;
 	3,判断是否满足水仙花数
 	4,如果满足条件,计数器就自增
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:45:33
+ * 
+ */
 class Test4_FlowerCount {
 	public static void main(String[] args) {
 		int count = 0;

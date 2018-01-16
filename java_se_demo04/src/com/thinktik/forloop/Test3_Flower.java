@@ -13,6 +13,11 @@ package com.thinktik.forloop;
 	2,获取每一个位数的值,百位,十位,个位
 	3,判断各个位上的立方和是否等于这个数,如果等于打印
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:45:30
+ * 
+ */
 class Test3_Flower {
 	public static void main(String[] args) {
 		for (int i = 100;i <= 999 ;i++ ) {					//获取100到999之间的数

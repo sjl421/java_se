@@ -9,6 +9,11 @@ package com.thinktik.forloop;
 	* b:循环体语句如果是一条语句，大括号可以省略；如果是多条语句，大括号不能省略。建议永远不要省略。
 	* c:一般来说：有左大括号就没有分号，有分号就没有左大括号
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:45:11
+ * 
+ */
 class Test1_For {
 	public static void main(String[] args) {
 		for (int i = 1;i <= 10 ;i++ ){

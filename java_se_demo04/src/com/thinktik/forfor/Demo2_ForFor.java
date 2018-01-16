@@ -8,6 +8,11 @@ package com.thinktik.forfor;
 		****
 		*****
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:44:52
+ * 
+ */
 class Demo2_ForFor {
 	public static void main(String[] args) {
 		for (int i = 1;i <= 5 ; i++) {				//外循环决定行数

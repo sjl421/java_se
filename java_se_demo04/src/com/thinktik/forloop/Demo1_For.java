@@ -19,6 +19,11 @@ package com.thinktik.forloop;
 * D:案例演示
 	* 在控制台输出10次"helloworld"
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:45:05
+ * 
+ */
 class Demo1_For {
 	public static void main(String[] args) {
 		//在控制输出10次helloworld,这样做不推荐,因为复用性太差

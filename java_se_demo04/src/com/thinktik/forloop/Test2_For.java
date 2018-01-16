@@ -14,6 +14,11 @@ package com.thinktik.forloop;
 				6
 				...
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:45:24
+ * 
+ */
 class Test2_For {
 	public static void main(String[] args) {
 		//1-10的和
