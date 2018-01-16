@@ -36,7 +36,7 @@ class Demo4_If {
 
 		int a = 20;
 		int b = 30;
-
+		// 三元运算符
 		int c = (a > b)? a : b;
 	}
 }

@@ -1,6 +1,11 @@
 package com.thinktik.ifelse;
 
 import java.util.Scanner;
+/**
+ * @author think
+ * 2018年1月16日下午11:31:10
+ * 
+ */
 class Test1_If {
 	public static void main(String[] args) {
 		/*

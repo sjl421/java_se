@@ -25,6 +25,11 @@ package com.thinktik.ifelse;
 	* 如果都是false，就执行语句体n+1。
 * C:注意事项:最后一个else可以省略,但是建议不要省略,可以对范围外的错误值提示 
 */
+/**
+ * @author think
+ * 2018年1月16日下午11:31:25
+ * 
+ */
 class Demo5_If {
 	public static void main(String[] args) {
 		int x = 2;

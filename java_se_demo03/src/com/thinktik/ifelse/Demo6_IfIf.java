@@ -1,10 +1,15 @@
 package com.thinktik.ifelse;
 
+/**
+ * @author think
+ * 2018年1月16日下午11:31:15
+ * 
+ */
 /*
-* A:案例演示
-	* 需求：获取三个数据中的最大值
-	* if语句的嵌套使用。
-*/
+ * A:案例演示
+ * 需求：获取三个数据中的最大值
+ * if语句的嵌套使用。
+ */
 class Demo6_IfIf {
 	public static void main(String[] args) {
 		int a = 40;

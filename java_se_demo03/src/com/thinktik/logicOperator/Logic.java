@@ -4,6 +4,8 @@ package com.thinktik.logicOperator;
  * @author think 2018年1月13日下午9:26:38
  * 
  */
+
+//强制逻辑 与& 或|
 public class Logic {
 	public static void main(String[] args) {
 		//&,|,^,!

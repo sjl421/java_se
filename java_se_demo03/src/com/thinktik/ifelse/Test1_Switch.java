@@ -1,5 +1,10 @@
 package com.thinktik.ifelse;
 
+/**
+ * @author think
+ * 2018年1月16日下午11:31:06
+ * 
+ */
 class Test1_Switch {
 	public static void main(String[] args) {
 		//* A:整数(给定一个值,输出对应星期几)

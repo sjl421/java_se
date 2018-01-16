@@ -1,6 +1,13 @@
 package com.thinktik.ifelse;
 
 import java.util.Scanner;
+/**
+ * @author think
+ * 2018年1月16日下午11:31:32
+ * 
+ */
+
+// case穿透效果
 class Test3_SwitchIf {
 	public static void main(String[] args) {
 		/*
@@ -53,7 +60,6 @@ class Test3_SwitchIf {
 		}else {
 			System.out.println(month + "月是冬季");
 		}
-		
 		sc.close();
 	}
 }

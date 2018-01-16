@@ -18,6 +18,8 @@ package com.thinktik.ifelse;
 	* 如果是true，就执行语句体；
 	* 如果是false，就不执行语句体；
 */
+
+//加public表示全局类，该类可以import到任何类内。不加public默认为保留类，只能被同一个包内的其他类引用。
 class Demo1_If {
 	public static void main(String[] args) {
 		int age = 17;

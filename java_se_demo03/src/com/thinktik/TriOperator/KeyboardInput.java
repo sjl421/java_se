@@ -34,7 +34,7 @@ public class KeyboardInput {
 		int y = sc.nextInt(); // 将键盘录入的数据存储在y中
 		System.out.println("请输入第三个整数:");
 		int z = sc.nextInt(); // 将键盘录入的数据存储在y中
-
+		sc.close();
 		// 定义临时变量记录住比较出前两个变量中的最大值
 		int temp = (x > y) ? x : y;
 		// 将比较后的结果与第三个变量中的值比较,比较出三个数中的最大值
@@ -62,7 +62,7 @@ public class KeyboardInput {
 		int x = sc.nextInt(); // 将键盘录入的数据存储在x中
 		System.out.println("请输入第二个整数:");
 		int y = sc.nextInt(); // 将键盘录入的数据存储在y中
-
+		sc.close();
 		int max = (x > y) ? x : y; // 获取x和y中的最大值
 		System.out.println("max = " + max);
 	}
