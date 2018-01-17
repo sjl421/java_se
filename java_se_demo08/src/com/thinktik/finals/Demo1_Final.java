@@ -1,5 +1,10 @@
 package com.thinktik.finals;
 
+/**
+ * @author think
+ * 2018年1月17日下午11:05:15
+ * 
+ */
 class Demo1_Final {
 	public static void main(String[] args) {
 		Son s = new Son();

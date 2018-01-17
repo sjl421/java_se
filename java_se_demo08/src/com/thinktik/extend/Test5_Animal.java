@@ -1,13 +1,18 @@
 package com.thinktik.extend;
 
+/**
+ * @author think
+ * 2018年1月17日下午11:04:41
+ * 
+ */
 class Test5_Animal {
 	public static void main(String[] args) {
-		Cat c1 = new Cat("花",4);
+		Cat1 c1 = new Cat1("花",4);
 		System.out.println(c1.getColor() + "..." + c1.getLeg());
 		c1.eat();
 		c1.catchMouse();
 
-		Dog d1 = new Dog("黑",2);
+		Dog2 d1 = new Dog2("黑",2);
 		System.out.println(d1.getColor() + "..." + d1.getLeg());
 		d1.eat();
 		d1.lookHome();
@@ -23,13 +28,13 @@ class Test5_Animal {
 	* 狗特有行为:看家lookHome
 */
 
-class Animal {
+class Animal1 {
 	private String color;					//毛的颜色
 	private int leg;						//腿的个数
 
-	public Animal(){}
+	public Animal1(){}
 
-	public Animal(String color,int leg) {
+	public Animal1(String color,int leg) {
 		this.color = color;
 		this.leg = leg;
 	}
@@ -55,10 +60,10 @@ class Animal {
 	}
 }
 
-class Cat extends Animal {
-	public Cat() {}							//空参构造
+class Cat1 extends Animal1 {
+	public Cat1() {}							//空参构造
 
-	public Cat(String color,int leg) {		//有参构造
+	public Cat1(String color,int leg) {		//有参构造
 		super(color,leg);
 	}
 
@@ -71,10 +76,10 @@ class Cat extends Animal {
 	}
 }
 
-class Dog extends Animal {
-	public Dog() {}							//空参构造
+class Dog2 extends Animal1 {
+	public Dog2() {}							//空参构造
 
-	public Dog(String color,int leg) {		//有参构造
+	public Dog2(String color,int leg) {		//有参构造
 		super(color,leg);
 	}
 

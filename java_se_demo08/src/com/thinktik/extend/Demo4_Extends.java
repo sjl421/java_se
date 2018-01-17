@@ -1,8 +1,13 @@
 package com.thinktik.extend;
 
+/**
+ * @author think
+ * 2018年1月17日下午10:48:12
+ * 
+ */
 class Demo4_Extends {
 	public static void main(String[] args) {
-		Son s = new Son();
+		Son1 s = new Son1();
 		s.print();
 	}
 }
@@ -14,12 +19,12 @@ class Demo4_Extends {
 		子类继承父类就是为了使用父类的成员,那么如果定义了同名的成员变量没有意义了
 */
 
-class Father {
+class Father1 {
 	int num1 = 10;
 	int num2 = 30;
 }
 
-class Son extends Father {
+class Son1 extends Father1 {
 	int num2 = 20;
 
 	public void print() {

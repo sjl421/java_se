@@ -1,5 +1,10 @@
 package com.thinktik.finals;
 
+/**
+ * @author think
+ * 2018年1月17日下午11:06:36
+ * 
+ */
 class Demo2_Final {
 	public static void main(String[] args) {
 		final int num = 10;

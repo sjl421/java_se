@@ -1,8 +1,13 @@
 package com.thinktik.extend;
 
+/**
+ * @author think
+ * 2018年1月17日下午10:48:44
+ * 
+ */
 class Demo5_Extends {
 	public static void main(String[] args) {
-		Son s = new Son();
+		Son2 s = new Son2();
 	}
 }
 /*
@@ -16,15 +21,15 @@ class Demo5_Extends {
 		* 每一个构造方法的第一条语句默认都是：super() Object类最顶层的父类。
 */
 
-class Father extends Object {
-	public Father() {
+class Father2 extends Object {
+	public Father2() {
 		super();
 		System.out.println("Father 的构造方法");
 	}
 }
 
-class Son extends Father {
-	public Son() {
+class Son2 extends Father2 {
+	public Son2() {
 		super();							//这是一条语句,如果不写,系统会默认加上,用来访问父类中的空参构造
 		System.out.println("Son 的构造方法");
 	}

@@ -1,8 +1,13 @@
 package com.thinktik.extend;
 
+/**
+ * @author think
+ * 2018年1月17日下午10:53:09
+ * 
+ */
 class Demo7_Extends {
 	public static void main(String[] args) {
-		Son s = new Son();
+		Son4 s = new Son4();
 		s.print();
 		s.method();
 	}
@@ -12,13 +17,13 @@ class Demo7_Extends {
 * b:同名的方法
 */
 
-class Father {
+class Father4 {
 	public void print() {
 		System.out.println("Fu print");
 	}
 }
 
-class Son extends Father {
+class Son4 extends Father4 {
 	public void method() {
 		System.out.println("Zi Method");
 	}

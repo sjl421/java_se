@@ -1,5 +1,10 @@
 package com.thinktik.extend;
 
+/**
+ * @author think
+ * 2018年1月17日下午10:53:23
+ * 
+ */
 class Demo8_双桨 {
 	public static void main(String[] args) {
 		DayOne d = new DayOne();
@@ -32,6 +37,7 @@ class 双桨 {
 }
 
 class DayOne extends 双桨 {
+	@Override
 	public void 泡妞() {
 		System.out.println("霸王硬上弓");
 	}

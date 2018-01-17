@@ -1,5 +1,10 @@
 package com.thinktik.extend;
 
+/**
+ * @author think
+ * 2018年1月17日下午11:02:50
+ * 
+ */
 class Test3_Person {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");

@@ -1,5 +1,10 @@
 package com.thinktik.codeblock;
 
+/**
+ * @author think
+ * 2018年1月17日下午10:40:06
+ * 
+ */
 class Demo1_Code {
 	public static void main(String[] args) {
 		{
@@ -51,7 +56,7 @@ class Student {
 	}
 
 	{											//构造代码块:每创建一次对象就会执行一次,优先于构造函数执行
-		//System.out.println("构造代码块");
+		System.out.println("构造代码块");
 		study();
 	}
 

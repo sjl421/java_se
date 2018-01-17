@@ -1,5 +1,10 @@
 package com.thinktik.extend;
 
+/**
+ * @author think
+ * 2018年1月17日下午10:48:22
+ * 
+ */
 class Demo3_Extends {
 	public static void main(String[] args) {
 		Son s = new Son();

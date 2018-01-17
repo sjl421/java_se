@@ -2,7 +2,7 @@ package com.thinktik.extend;
 
 class Test4_Person {
 	public static void main(String[] args) {
-		Student s1 = new Student();
+		Student2 s1 = new Student2();
 		s1.setName("张三");
 		s1.setAge(23);
 		System.out.println(s1.getName() + "..." + s1.getAge());
@@ -10,7 +10,7 @@ class Test4_Person {
 		s1.study();
 
 		System.out.println("------------------");
-		Student s2 = new Student("李四",24);
+		Student2 s2 = new Student2("李四",24);
 		System.out.println(s2.getName() + "..." + s2.getAge());
 		s2.eat();
 		s2.study();
@@ -52,10 +52,10 @@ class Person {
 	}
 }
 
-class Student extends Person {
-	public Student() {}						//空参构造
+class Student2 extends Person {
+	public Student2() {}						//空参构造
 
-	public Student(String name,int age) {
+	public Student2(String name,int age) {
 		super(name,age);
 	}
 
@@ -64,10 +64,10 @@ class Student extends Person {
 	}
 }
 
-class Teacher extends Person {
-	public Teacher() {}						//空参构造
+class Teacher1 extends Person {
+	public Teacher1() {}						//空参构造
 
-	public Teacher(String name,int age) {
+	public Teacher1(String name,int age) {
 		super(name,age);
 	}
 
