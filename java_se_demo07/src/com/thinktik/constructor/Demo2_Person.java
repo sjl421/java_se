@@ -1,5 +1,10 @@
 package com.thinktik.constructor;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:36:33
+ * 
+ */
 class Demo2_Person {
 	public static void main(String[] args) {
 		Person p1 = new Person();
@@ -16,6 +21,7 @@ class Demo2_Person {
 		p3.show();
 	}
 }
+
 /*
 * A:案例演示
 	* 构造方法的重载
@@ -26,6 +32,16 @@ class Demo2_Person {
 		* 注意：这个时候，如果我们还想使用无参构造方法，就必须自己给出。建议永远自己给出无参构造方法
 		
 */
+
+/*class没有写public 就是default 
+ * 对于顶级类(外部类)来说，只有两种修饰符：public和默认(default)。
+ * 因为外部类的上一单元是包，所以外部类只有两个作用域：同包，任何位置。
+ * 因此，只需要两种控制权限：包控制权限和公开访问权限，也就对应两种控制修饰符：public和默认(default)。
+ * 既然你问的类使用了private修饰符，说明是个内部类。内部类的上一级是外部类，那么对应的有四种访问控制修饰符：本类(private)，同包(default)，父子类(protected)，任何位置(public)。
+ * 当一个内部类使用了private修饰后，只能在该类的外部类内部使用。
+ * */
+
+//同一个包下已经有了Person这个同名的类,所以eclipse检查会报错  不过手动编译的话不影响
 class Person {
 	private String name;			//姓名
 	private int age;				//年龄

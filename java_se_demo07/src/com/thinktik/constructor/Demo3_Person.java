@@ -1,5 +1,10 @@
 package com.thinktik.constructor;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:44:14
+ * 
+ */
 class Demo3_Person {
 	public static void main(String[] args) {
 		Person p1 = new Person("张三",23);

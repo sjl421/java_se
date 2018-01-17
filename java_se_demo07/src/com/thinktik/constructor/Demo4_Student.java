@@ -1,5 +1,10 @@
 package com.thinktik.constructor;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:44:33
+ * 
+ */
 class Demo4_Student {
 	public static void main(String[] args) {
 		Student s1 = new Student();					//使用空参构造

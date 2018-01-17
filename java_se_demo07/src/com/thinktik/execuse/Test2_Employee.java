@@ -1,5 +1,10 @@
 package com.thinktik.execuse;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:53:26
+ * 
+ */
 class Test2_Employee {						//employee员工
 	public static void main(String[] args) {
 		Employee e = new Employee("令狐冲","9527",20000);

@@ -1,5 +1,10 @@
 package com.thinktik.doc;
 
+/**
+ * @author think
+ * 2018年1月17日下午10:04:55
+ * 
+ */
 class Demo1_ArrayTool {
 	public static void main(String[] args) {
 		int[] arr = {33,11,22,66,55,44};

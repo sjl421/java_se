@@ -1,5 +1,10 @@
 package com.thinktik.doc;
 
+/**
+ * @author think
+ * 2018年1月17日下午10:05:15
+ * 
+ */
 class Demo3_Static {
 	public static void main(String[] args) {
 		//method();								//错误: 无法从静态上下文中引用非静态 方法 method()

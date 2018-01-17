@@ -1,5 +1,10 @@
 package com.thinktik.execuse;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:53:19
+ * 
+ */
 class Test1_Rectangle {							//Rectangle矩形
 	public static void main(String[] args) {
 		Rectangle r = new Rectangle(10,20);

@@ -1,5 +1,10 @@
 package com.thinktik.statics;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:52:04
+ * 
+ */
 class Demo3_Main {
 	public static void main(String[] args) {			
 		/*

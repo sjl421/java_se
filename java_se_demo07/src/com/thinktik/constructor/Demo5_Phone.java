@@ -1,5 +1,10 @@
 package com.thinktik.constructor;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:45:10
+ * 
+ */
 class Demo5_Phone {
 	public static void main(String[] args) {
 		Phone p1 = new Phone();

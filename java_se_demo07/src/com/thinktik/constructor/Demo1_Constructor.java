@@ -1,5 +1,10 @@
 package com.thinktik.constructor;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:33:51
+ * 
+ */
 class Demo1_Constructor {						//Constructor构造
 	public static void main(String[] args) {
 		Person p = new Person();				//在一创建对象的时候,系统就帮我调用了构造方法

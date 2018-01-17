@@ -1,5 +1,10 @@
 package com.thinktik.doc;
 
+/**
+ * @author think
+ * 2018年1月17日下午10:05:03
+ * 
+ */
 class Demo2_Math {
 	public static void main(String[] args) {
 		//double d = Math.random();

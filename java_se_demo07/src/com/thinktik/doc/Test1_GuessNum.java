@@ -1,10 +1,15 @@
 package com.thinktik.doc;
 
-/*
-* A:案例演示
-	* 需求：猜数字小游戏(数据在1-100之间)
-*/
 import java.util.Scanner;
+/*
+ * A:案例演示
+ * 需求：猜数字小游戏(数据在1-100之间)
+ */
+/**
+ * @author think
+ * 2018年1月17日下午10:05:50
+ * 
+ */
 class Test1_GuessNum {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);				//创建键盘录入对象

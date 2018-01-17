@@ -1,5 +1,10 @@
 package com.thinktik.statics;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:49:34
+ * 
+ */
 class Demo1_Static {
 	public static void main(String[] args) {
 		/*Person p1 = new Person();	//创建对象
@@ -21,7 +26,7 @@ class Demo1_Static {
 
 class Person {
 	String name;					//姓名
-	static String country;					//国籍
+	static String country;			//国籍
 
 	public void speak() {			//说话的方法
 		System.out.println(name + "..." + country);

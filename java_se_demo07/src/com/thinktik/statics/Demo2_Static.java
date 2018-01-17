@@ -1,5 +1,10 @@
 package com.thinktik.statics;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:50:07
+ * 
+ */
 class Demo2_Static {
 	public static void main(String[] args) {
 		//Demo d = new Demo();
@@ -37,6 +42,7 @@ class Demo {
 
 	public static void print2() {		//静态的成员方法
 		//System.out.println(this.num1);//静态的成员方法不能访问非静态的,错误: 无法从静态上下文中引用非静态 变量 num1
+		//String country = Person.country;
 		System.out.println(num2);
 	}
 }
