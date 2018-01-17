@@ -12,6 +12,11 @@ package com.thinktik.anoymousClazz;
 * C:案例演示
 	* 匿名对象应用场景
 */
+/**
+ * @author think
+ * 2018年1月17日下午9:24:49
+ * 
+ */
 class Demo2_Car {
 	public static void main(String[] args) {
 		/*Car c1 = new Car();			//创建有名字的对象

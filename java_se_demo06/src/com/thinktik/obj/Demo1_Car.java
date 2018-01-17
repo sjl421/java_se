@@ -1,5 +1,10 @@
 package com.thinktik.obj;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:16:52
+ * 
+ */
 class Demo1_Car {
 	public static void main(String[] args) {
 		Car c1 = new Car();				//创建对象
@@ -34,7 +39,7 @@ class Demo1_Car {
 */
 
 class Car {
-	//成员变量
+	//成员变量  默认是public
 	String color;						//车的颜色
 	int num;							//车的轮胎数
 

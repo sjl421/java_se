@@ -1,5 +1,10 @@
 package com.thinktik.clazz;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:23:29
+ * 
+ */
 class Demo2_Phone {
 	public static void main(String[] args) {
 		//创建对象

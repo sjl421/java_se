@@ -15,9 +15,9 @@ package com.thinktik.envolop;
 class Demo1_Person {
 	public static void main(String[] args) {
 		Person p1 = new Person();
-		p1.name = "张三";			//调用姓名属性并赋值
+		p1.name = "张三";			    //调用姓名属性并赋值
 		//p1.age = -17;				//调用年龄属性并赋值
-		//p1.speak();					//调用行为
+		//p1.speak();			    //调用行为
 
 		p1.setAge(-17);
 
@@ -26,8 +26,8 @@ class Demo1_Person {
 }
 
 class Person {
-	String name;					//姓名
-	private int age;				//年龄
+	String name;					//姓名   public
+	private int age;				//年龄   private
 	
 	public void setAge(int a) {		//设置年龄
 		if (a > 0 && a < 200) {

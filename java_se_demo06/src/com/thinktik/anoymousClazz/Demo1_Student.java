@@ -1,5 +1,10 @@
 package com.thinktik.anoymousClazz;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:24:03
+ * 
+ */
 class Demo1_Student {
 	public static void main(String[] args) {
 		print(10);

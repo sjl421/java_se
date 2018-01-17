@@ -1,5 +1,10 @@
 package com.thinktik.clazz;
 
+/**
+ * @author think
+ * 2018年1月17日下午9:23:26
+ * 
+ */
 class Demo1_Student {
 	public static void main(String[] args) {
 		//创建对象的格式:类名 对象名 = new 类名();
