@@ -3,6 +3,11 @@ package com.thinktik.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:18:12
+ * 
+ */
 public class Demo8_Pattern {
 
 	/**

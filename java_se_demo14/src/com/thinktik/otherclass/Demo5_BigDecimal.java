@@ -2,6 +2,16 @@ package com.thinktik.otherclass;
 
 import java.math.BigDecimal;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:16:30
+ * 
+ */
+/**
+ * @author think
+ * 2018年1月18日下午10:16:36
+ * 
+ */
 public class Demo5_BigDecimal {
 
 	/**

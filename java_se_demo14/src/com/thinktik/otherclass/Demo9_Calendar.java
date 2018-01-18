@@ -2,6 +2,11 @@ package com.thinktik.otherclass;
 
 import java.util.Calendar;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:17:37
+ * 
+ */
 public class Demo9_Calendar {
 
 	/**

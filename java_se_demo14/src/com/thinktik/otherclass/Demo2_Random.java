@@ -2,6 +2,11 @@ package com.thinktik.otherclass;
 
 import java.util.Random;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:16:08
+ * 
+ */
 public class Demo2_Random {
 
 	/**

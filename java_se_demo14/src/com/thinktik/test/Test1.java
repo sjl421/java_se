@@ -2,6 +2,11 @@ package com.thinktik.test;
 
 import java.util.Arrays;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:18:17
+ * 
+ */
 public class Test1 {
 
 	/**

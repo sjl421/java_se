@@ -1,5 +1,10 @@
 package com.thinktik.otherclass;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:15:40
+ * 
+ */
 public class Demo1_Math {
 
 	/**

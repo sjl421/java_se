@@ -2,6 +2,11 @@ package com.thinktik.otherclass;
 
 import java.math.BigInteger;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:16:21
+ * 
+ */
 public class Demo4_BigInteger {
 
 	/**

@@ -1,5 +1,10 @@
 package com.thinktik.regex;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:17:49
+ * 
+ */
 public class Demo1_Regex {
 
 	/**

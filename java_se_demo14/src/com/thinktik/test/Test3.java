@@ -3,6 +3,11 @@ package com.thinktik.test;
 import java.util.Calendar;
 import java.util.Scanner;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:18:22
+ * 
+ */
 public class Test3 {
 
 	/**

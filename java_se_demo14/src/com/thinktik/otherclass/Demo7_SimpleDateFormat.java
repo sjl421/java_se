@@ -5,6 +5,11 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:17:10
+ * 
+ */
 public class Demo7_SimpleDateFormat {
 
 	/**
