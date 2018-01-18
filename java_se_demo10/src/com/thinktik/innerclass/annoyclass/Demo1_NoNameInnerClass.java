@@ -1,5 +1,10 @@
 package com.thinktik.innerclass.annoyclass;
 
+/**
+ * @author think
+ * 2018年1月18日下午9:16:57
+ * 
+ */
 class Demo1_NoNameInnerClass {
 	public static void main(String[] args) {
 		Outer o = new Outer();
@@ -7,7 +12,7 @@ class Demo1_NoNameInnerClass {
 	}
 }
 /*
-* A:匿名内部类
+//* A:匿名内部类
 	* 就是内部类的简化写法。
 * B:前提：存在一个类或者接口
 	* 这里的类可以是具体类也可以是抽象类。
@@ -22,12 +27,12 @@ class Demo1_NoNameInnerClass {
 	* 按照要求来一个匿名内部类
 */
 
-interface Inter {
+interface Inter1 {
 	public void print();
 }
 
 class Outer {
-	class Inner implements Inter {
+	class Inner implements Inter1 {
 		public void print() {
 			System.out.println("print");
 		}
@@ -37,9 +42,9 @@ class Outer {
 		//Inner i = new Inner();
 		//i.print();
 		//new Inner().print();
-		//Inter i = new Inner();			//父类引用指向子类对象
+//		Inter1 i = new Inner();			//父类引用指向子类对象
 		
-		new Inter() {						//实现Inter接口
+		new Inter1() {						//实现Inter接口
 			public void print() {			//重写抽象方法
 				System.out.println("print");
 			}

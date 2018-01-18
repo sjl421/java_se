@@ -1,6 +1,11 @@
 package com.thinktik.packages;
 
 
+/**
+ * @author think
+ * 2018年1月18日下午9:37:00
+ * 
+ */
 public class Person {
 	private String name;
 	private int age;

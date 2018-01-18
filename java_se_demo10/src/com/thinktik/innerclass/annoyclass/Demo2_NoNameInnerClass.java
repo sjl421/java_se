@@ -1,18 +1,23 @@
 package com.thinktik.innerclass.annoyclass;
 
+/**
+ * @author think
+ * 2018年1月18日下午9:16:52
+ * 
+ */
 class Demo2_NoNameInnerClass {
 	public static void main(String[] args) {
-		Outer o = new Outer();
+		Outer2 o = new Outer2();
 		o.method();
 	}
 }
 
-interface Inter {
+interface Inter2 {
 	public void show1();
 	public void show2();
 }
-//匿名内部类只针对重写一个方法时候使用
-class Outer {
+//匿名内部类只针对重写一个方法时候使用最好
+class Outer2 {
 	public void method() {
 		/*new Inter(){
 			public void show1() {
@@ -34,7 +39,7 @@ class Outer {
 			}
 		}.show2();*/
 
-		Inter i = new Inter(){
+		Inter2 i = new Inter2(){
 			public void show1() {
 				System.out.println("show1");
 			}

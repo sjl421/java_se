@@ -5,7 +5,7 @@ class Demo1_InnerClass {
 		//Inner i = new Inner();
 		//i.method();
 		//外部类名.内部类名 = 外部类对象.内部类对象
-		Outer.Inner oi = new Outer().new Inner();			//创建内部类对象
+		Outer1.Inner oi = new Outer1().new Inner();			//创建内部类对象
 		oi.method();
 
 	}
@@ -21,7 +21,7 @@ class Demo1_InnerClass {
 	* 内部类极其访问特点
 */
 
-class Outer {
+class Outer1 {
 	private int num = 10;
 	class Inner {
 		public void method() {

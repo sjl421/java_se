@@ -11,6 +11,11 @@ package com.thinktik.packages;
 */
 
 
+/**
+ * @author think
+ * 2018年1月18日下午9:36:55
+ * 
+ */
 class Demo1_Package {
 	public static void main(String[] args) {
 		Person p = new Person("张三",23);

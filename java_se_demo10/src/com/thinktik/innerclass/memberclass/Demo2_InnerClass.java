@@ -5,12 +5,12 @@ class Demo2_InnerClass {
 		//Outer.Inner oi = new Outer().new Inner();
 		//oi.method();
 
-		Outer o = new Outer();
+		Outer2 o = new Outer2();
 		o.print();
 	}
 }
 
-class Outer {
+class Outer2 {
 	private int num = 10;
 	private class Inner {
 		public void method() {
