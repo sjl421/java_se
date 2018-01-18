@@ -2,6 +2,11 @@ package com.thinktik.collection;
 
 import com.thinktik.bean.Student;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:04:58
+ * 
+ */
 public class Demo1_Array {
 
 	/**

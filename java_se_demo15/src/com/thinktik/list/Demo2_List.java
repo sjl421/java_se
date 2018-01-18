@@ -5,6 +5,11 @@ import java.util.List;
 
 import com.thinktik.bean.Student;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:26:03
+ * 
+ */
 public class Demo2_List {
 
 	/**

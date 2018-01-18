@@ -3,6 +3,11 @@ package com.thinktik.collection;
 import java.util.ArrayList;
 import java.util.Collection;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:05:12
+ * 
+ */
 @SuppressWarnings({ "rawtypes", "unchecked" })
 public class Demo4_CollectionAll {
 

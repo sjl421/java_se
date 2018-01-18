@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:25:55
+ * 
+ */
 public class Demo4_ListIterator {
 
 	/**

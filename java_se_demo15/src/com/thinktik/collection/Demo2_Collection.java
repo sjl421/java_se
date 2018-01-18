@@ -5,6 +5,11 @@ import java.util.Collection;
 
 import com.thinktik.bean.Student;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:04:53
+ * 
+ */
 @SuppressWarnings({ "rawtypes", "unchecked" })
 public class Demo2_Collection {
 

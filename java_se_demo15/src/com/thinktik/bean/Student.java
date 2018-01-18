@@ -1,5 +1,10 @@
 package com.thinktik.bean;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:05:23
+ * 
+ */
 public class Student {
 	private String name;
 	private int age;

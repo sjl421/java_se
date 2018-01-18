@@ -3,6 +3,11 @@ package com.thinktik.list;
 import java.util.Enumeration;
 import java.util.Vector;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:25:50
+ * 
+ */
 public class Demo5_Vector {
 
 	/**

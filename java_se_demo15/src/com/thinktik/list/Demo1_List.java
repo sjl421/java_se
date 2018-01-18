@@ -3,6 +3,11 @@ package com.thinktik.list;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:26:08
+ * 
+ */
 public class Demo1_List {
 
 	/**

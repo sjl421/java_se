@@ -6,6 +6,11 @@ import java.util.Iterator;
 
 import com.thinktik.bean.Student;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:05:16
+ * 
+ */
 public class Demo5_Iterator {
 
 	/**
