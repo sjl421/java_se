@@ -3,16 +3,16 @@ package com.thinktik.stringbuffer;
 public class Demo7_StringBuffer {
 
 	/**
-	 * * A:��ʽ��������
-			* String��Ϊ��������
-			* StringBuffer��Ϊ�������� 
-		* B:������ʾ
-			* String��StringBuffer�ֱ���Ϊ������������
+	 * * A:形式参数问题
+			* String作为参数传递
+			* StringBuffer作为参数传递 
+		* B:案例演示
+			* String和StringBuffer分别作为参数传递问题
 			* 
-	�����������͵�ֵ����,���ı���ֵ
-	�����������͵�ֵ����,�ı���ֵ
+	基本数据类型的值传递,不改变其值
+	引用数据类型的值传递,改变其值
 	
-	String����Ȼ��������������,������������������ʱ�ͻ�������������һ����
+	String类虽然是引用数据类型,但是他当作参数传递时和基本数据类型是一样的
 	 */
 	public static void main(String[] args) {
 		String s = "heima";

@@ -1,16 +1,21 @@
 package com.thinktik.test;
 
+/**
+ * @author think
+ * 2018年1月18日下午10:08:38
+ * 
+ */
 public class Test1 {
 
 	/**
-	 * * ���󣺰������е����ݰ���ָ������ʽƴ�ӳ�һ���ַ���
+	 * * 需求：把数组中的数据按照指定个格式拼接成一个字符串
 	* 
-			������
+			举例：
 				int[] arr = {1,2,3};	
-			��������
+			输出结果：
 				"[1, 2, 3]"
 				
-			��StringBuffer�Ĺ���ʵ��
+			用StringBuffer的功能实现
 	 */
 	public static void main(String[] args) {
 		int[] arr = {1,2,3};
@@ -18,23 +23,23 @@ public class Test1 {
 	}
 
 	/*
-	 * ������ת��Ϊ�ַ���
-	 * 1,����ֵ����String
-	 * 2,�����б�int[]
+	 * 将数组转换为字符串
+	 * 1,返回值类型String
+	 * 2,参数列表int[]
 	 * 
-	 * arrayToString ������ת��Ϊ�ַ���
-	 * array2String		2��to�ķ���һ������2�滻��to,�����ݱ����һ����дϰ��
+	 * arrayToString 将数组转换为字符串
+	 * array2String		2与to的发音一样就用2替换了to,后来演变成了一种书写习惯
 	 * dom4j  domForJ
 	 */
 	
 	public static String arrayToString(int[] arr) {
-		StringBuffer sb = new StringBuffer();				//�����ַ�������������
-		sb.append("[");										//��[��ӵ�������
+		StringBuffer sb = new StringBuffer();				//创建字符串缓冲区对象
+		sb.append("[");										//将[添加到缓冲区
 		
 		
 		//{1,2,3}
-		for (int i = 0; i < arr.length; i++) {				//��������
-			//sb.append(arr[i] + ", ");						//������û��]
+		for (int i = 0; i < arr.length; i++) {				//遍历数组
+			//sb.append(arr[i] + ", ");						//这样做没有]
 			if(i == arr.length - 1) {
 				sb.append(arr[i]).append("]");				//[1, 2, 3]
 			}else {

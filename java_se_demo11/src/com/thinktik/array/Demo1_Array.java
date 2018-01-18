@@ -1,10 +1,15 @@
 package com.thinktik.array;
 
+/**
+ * @author think
+ * 2018年1月18日下午9:52:45
+ * 
+ */
 public class Demo1_Array {
 
 	/**
-	 * * A:������ʾ
-	* ����߼�ð���������
+	 * * A:案例演示
+	* 数组高级冒泡排序代码
 	 */
 	public static void main(String[] args) {
 		int[] arr = {24, 69, 80, 57, 13};
@@ -14,19 +19,19 @@ public class Demo1_Array {
 	}
 	
 	/*
-	 * ð������
-	 * 1,����ֵ����,void
-	 * 2,�����б�,int[] arr
+	 * 冒泡排序
+	 * 1,返回值类型,void
+	 * 2,参数列表,int[] arr
 	 * 
-	 * 	��һ��:arr[0]��arr[1],arr[1]��arr[2],arr[2]��arr[3],arr[3]��arr[4]�Ƚ�4��
-		�ڶ���:arr[0]��arr[1],arr[1]��arr[2],arr[2]��arr[3]�Ƚ�3��
-		������:arr[0]��arr[1],arr[1]��arr[2]�Ƚ�2��
-		���Ĵ�:arr[0]��arr[1]�Ƚ�1��
+	 * 	第一次:arr[0]与arr[1],arr[1]与arr[2],arr[2]与arr[3],arr[3]与arr[4]比较4次
+		第二次:arr[0]与arr[1],arr[1]与arr[2],arr[2]与arr[3]比较3次
+		第三次:arr[0]与arr[1],arr[1]与arr[2]比较2次
+		第四次:arr[0]与arr[1]比较1次
 	 */
 	
 	public static void bubbleSort(int[] arr) {
-		for (int i = 0; i < arr.length - 1; i++) {				//��ѭ��ֻ��Ҫ�Ƚ�arr.length-1�ξͿ�����
-			for (int j = 0; j < arr.length - 1 - i; j++) {		//-1Ϊ�˷�ֹ����Խ��,-iΪ�����Ч��
+		for (int i = 0; i < arr.length - 1; i++) {				//外循环只需要比较arr.length-1次就可以了
+			for (int j = 0; j < arr.length - 1 - i; j++) {		//-1为了防止索引越界,-i为了提高效率
 				if(arr[j] > arr[j+1]) {
 					/*int temp = arr[j];
 					arr[j] = arr[j + 1];
@@ -38,9 +43,9 @@ public class Demo1_Array {
 	}
 	
 	/*
-	 * ��ӡ����
-	 * 1,����ֵ����void
-	 * 2,�����б�int[]arr
+	 * 打印数组
+	 * 1,返回值类型void
+	 * 2,参数列表int[]arr
 	 */
 	
 	public static void print(int[] arr) {
@@ -50,18 +55,18 @@ public class Demo1_Array {
 	}
 	
 	/*
-	 * ѡ������
-	 * 1,����ֵ����void
-	 * 2,�����б�int[] arr
+	 * 选择排序
+	 * 1,返回值类型void
+	 * 2,参数列表int[] arr
 	 * 
-	 * 	��һ��:arr[0]�ֱ���arr[1-4]�Ƚ�,�Ƚ�4��
-		�ڶ���:arr[1]�ֱ���arr[2-4]�Ƚ�,�Ƚ�3��
-		������:arr[2]�ֱ���arr[3-4]�Ƚ�,�Ƚ�2��
-		���Ĵ�:arr[3]��arr[4]�Ƚ�,�Ƚ�1��
+	 * 	第一次:arr[0]分别与arr[1-4]比较,比较4次
+		第二次:arr[1]分别与arr[2-4]比较,比较3次
+		第三次:arr[2]分别与arr[3-4]比较,比较2次
+		第四次:arr[3]与arr[4]比较,比较1次
 	 */
 	
 	public static void selectSort(int[] arr) {
-		for (int i = 0; i < arr.length - 1; i++) {				//ֻ��Ҫ�Ƚ�arr.length-1��
+		for (int i = 0; i < arr.length - 1; i++) {				//只需要比较arr.length-1次
 			for (int j = i + 1; j < arr.length; j++) {
 				if(arr[i] > arr[j]) {
 					/*int temp = arr[i];
@@ -74,11 +79,11 @@ public class Demo1_Array {
 	}
 	
 	/*
-	 * ��λ����
-	 * 1,����ֵ����,void
-	 * 2,�����б�int[] arr.int i,int j
+	 * 换位操作
+	 * 1,返回值类型,void
+	 * 2,参数列表int[] arr.int i,int j
 	 * 
-	 * ���ĳ������,ֻ��Ա���ʹ��,������������ʹ�þͿ��Զ����˽�е�
+	 * 如果某个方法,只针对本类使用,不想让其他类使用就可以定义成私有的
 	 */
 	
 	private static void swap(int[] arr,int i,int j) {

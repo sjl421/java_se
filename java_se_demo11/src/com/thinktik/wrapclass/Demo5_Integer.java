@@ -31,8 +31,8 @@ public class Demo5_Integer {
 		System.out.println(i7.equals(i8));			//true
 		
 		/*
-		 * -128��127��byte��ȡֵ��Χ,��������ȡֵ��Χ��,�Զ�װ��Ͳ����´�������,���Ǵӳ������л�ȡ
-		 * ���������byteȡֵ��Χ�ͻ����´�������
+		 * -128到127是byte的取值范围,如果在这个取值范围内,自动装箱就不会新创建对象,而是从常量池中获取
+		 * 如果超过了byte取值范围就会再新创建对象
 		 * 
 		 * public static Integer valueOf(int i) {
 		        assert IntegerCache.high >= 127;
