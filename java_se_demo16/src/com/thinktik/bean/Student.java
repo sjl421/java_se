@@ -1,5 +1,10 @@
 package com.thinktik.bean;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:26:58
+ * 
+ */
 public class Student extends Person {
 
 	public Student() {

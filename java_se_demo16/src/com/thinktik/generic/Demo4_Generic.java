@@ -1,5 +1,10 @@
 package com.thinktik.generic;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:28:59
+ * 
+ */
 public class Demo4_Generic {
 
 	/**

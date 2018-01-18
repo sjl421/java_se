@@ -1,5 +1,10 @@
 package com.thinktik.bean;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:27:53
+ * 
+ */
 public class Tool<Q> {
 	private Q q;
 

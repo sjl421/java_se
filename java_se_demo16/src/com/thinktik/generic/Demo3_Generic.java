@@ -3,6 +3,11 @@ package com.thinktik.generic;
 import com.thinktik.bean.Student;
 import com.thinktik.bean.Tool;
 
+/**
+ * @author think
+ * 2018年1月18日下午11:28:48
+ * 
+ */
 public class Demo3_Generic {
 
 	/**
