@@ -7,11 +7,11 @@ package com.thinktik.constructor;
  */
 class Demo1_Constructor {						//Constructor构造
 	public static void main(String[] args) {
-		Person p = new Person();				//在一创建对象的时候,系统就帮我调用了构造方法
+		Person1 p = new Person1();				//在一创建对象的时候,系统就帮我调用了构造方法
 		//p.Person();							//构造方法不能用对象调用
 		p.show();
 
-		Person p2 = new Person();				//再次创建对象
+		Person1 p2 = new Person1();				//再次创建对象
 	
 		p2.show();
 	}
@@ -26,12 +26,12 @@ class Demo1_Constructor {						//Constructor构造
 	* c:没有具体的返回值return;
 */
 
-class Person {
+class Person1 {
 	private String name;
 	private int age;
 
 	//构造方法
-	public Person() {
+	public Person1() {
 		//System.out.println("Hello World!");
 		//return;								//构造方法也是有return语句的,格式是return;
 		name = "张三";
