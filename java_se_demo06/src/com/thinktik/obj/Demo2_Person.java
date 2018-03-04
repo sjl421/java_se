@@ -37,7 +37,6 @@ class Person {
 	public void speak() {
 		int num = 10;						//x和num都是局部变量
 		System.out.println(name);
-	
 		System.out.println(num);
 	}
 }

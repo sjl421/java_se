@@ -18,7 +18,7 @@ package com.thinktik.array;
  * 2018年1月16日下午11:52:02
  * 
  */
-class Demo3_Array {
+class Demo03_Array {
 	public static void main(String[] args) {
 		int[] arr = new int[3];						//动态初始化,创建3块连续的空间
 		System.out.println(arr);

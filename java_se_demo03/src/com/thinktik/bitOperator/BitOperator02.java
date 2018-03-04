@@ -2,7 +2,7 @@ package com.thinktik.bitOperator;
 
 /**
  * @author think 2018年1月13日下午9:51:59
- * 
+ * 异或
  */
 public class BitOperator02 {
 	public static void main(String[] args) {

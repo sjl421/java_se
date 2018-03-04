@@ -18,7 +18,8 @@ class Demo5_Extends {
 	* 所以，子类初始化之前，一定要先完成父类数据的初始化。
 	
 	* 其实：
-		* 每一个构造方法的第一条语句默认都是：super() Object类最顶层的父类。
+		* 每一个构造方法的第一条语句默认都是：super() 
+		* Object类最顶层的父类。
 */
 
 class Father2 extends Object {

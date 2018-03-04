@@ -17,9 +17,9 @@ public class Operator1 {
 		 * 任何一个正整数%2结果不是0就是1可以用来当作切换条件
 		 */
 
-		// System.out.println(10 / 3); //整数相除结果只能是整数
-		// System.out.println(10 / 3.0); //如果想得到小数,把其中一个数变成小数,另一个数在运算的时候会自动类型提升
-		// System.out.println(-5 % 5);
+		 System.out.println(10 / 3); //整数相除结果只能是整数
+		 System.out.println(10 / 3.0); //如果想得到小数,把其中一个数变成小数,另一个数在运算的时候会自动类型提升
+		 System.out.println(-5 % 5);
 		System.out.println(13 % -5);
 	}
 }

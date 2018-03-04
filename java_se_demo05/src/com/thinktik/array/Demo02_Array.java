@@ -25,13 +25,13 @@ package com.thinktik.array;
 	I代表是int类型
 	@是固定的
 	19bb25a代表的是数组的地址值
-*/
+ */
 /**
  * @author think
  * 2018年1月16日下午11:51:58
  * 
  */
-class Demo2_Array {
+class Demo02_Array {
 	public static void main(String[] args) {
 		//数据类型[] 数组名 = new 数据类型[数组长度];
 		int[] arr = new int[5];				//动态初始化,在内存中开辟连续的5块空间

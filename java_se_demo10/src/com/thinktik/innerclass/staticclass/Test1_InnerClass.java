@@ -7,7 +7,7 @@ class Test1_InnerClass {
 	}
 }
 //要求：使用已知的变量，在控制台输出30，20，10。
-//内部类之所以能获取到外部类的成员,是因为他能获取到外部类的引用外部类名.this
+//内部类之所以能获取到外部类的成员,是因为他能获取到外部类的引用 外部类名.this
 class Outer {
 	public int num = 10;
 	class Inner {

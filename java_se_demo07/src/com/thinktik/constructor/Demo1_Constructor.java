@@ -32,10 +32,10 @@ class Person1 {
 
 	//构造方法
 	public Person1() {
-		//System.out.println("Hello World!");
-		//return;								//构造方法也是有return语句的,格式是return;
+		System.out.println("Hello World!");
 		name = "张三";
 		age = 23;
+		//return;								//构造方法也是有return语句的,格式是return;
 	}
 
 	public void show() {

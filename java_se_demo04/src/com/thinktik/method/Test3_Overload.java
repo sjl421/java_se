@@ -20,7 +20,6 @@ class Test3_Overload {
 	1,返回值类型boolean
 	2,参数列表int a,int b
 	*/
-
 	public static boolean isEquals(int a,int b) {
 		return a == b;
 	}

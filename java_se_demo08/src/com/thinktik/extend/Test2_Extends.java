@@ -5,11 +5,7 @@ package com.thinktik.extend;
  * 2018年1月17日下午11:01:17
  * 
  */
-class Test2_Extends {
-	public static void main(String[] args) {
-		Zi1 z = new Zi1();
-	}
-	/*
+/*
 	1,jvm调用了main方法,main进栈
 	2,遇到Zi z = new Zi();会先将Fu.class和Zi.class分别加载进内存,再创建对象,当Fu.class加载进内存
 	父类的静态代码块会随着Fu.class一起加载,当Zi.class加载进内存,子类的静态代码块会随着Zi.class一起加载
@@ -18,7 +14,11 @@ class Test2_Extends {
 	父类构造时,发现父类有构造代码块,构造代码块是优先于构造方法执行的所以
 	第三个输出构造代码块Fu,第四个输出构造方法Fu
 	4,Fu类初始化结束,子类初始化,第五个输出的是构造代码块Zi,构造方法Zi
-	*/
+ */
+class Test2_Extends {
+	public static void main(String[] args) {
+		Zi1 z = new Zi1();
+	}
 }
 class Fu1 {
 	static {

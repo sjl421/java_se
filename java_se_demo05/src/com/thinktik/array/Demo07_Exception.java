@@ -15,7 +15,7 @@ package com.thinktik.array;
  * 2018年1月16日下午11:55:35
  * 
  */
-class Demo7_Exception {
+class Demo07_Exception {
 	public static void main(String[] args) {
 		int[] arr = new int[5];						//0x0011
 		//System.out.println(arr[-1]);				//当访问数组中不存在的索引,会出现索引越界异常

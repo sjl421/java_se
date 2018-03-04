@@ -9,7 +9,7 @@ package com.thinktik.array;
  * 2018年1月16日下午11:58:02
  * 
  */
-class Demo9_Array {
+class Demo09_Array {
 	public static void main(String[] args) {
 		int[] arr = {33,77,22,44,55};
 		int max = getMax(arr);

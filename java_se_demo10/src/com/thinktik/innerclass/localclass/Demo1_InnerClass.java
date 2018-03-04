@@ -1,5 +1,11 @@
 package com.thinktik.innerclass.localclass;
 
+/**
+ * @author think
+ * 2018年3月4日上午11:48:27
+ * 
+ * 局部内部类
+ */
 class Demo1_InnerClass {
 	public static void main(String[] args) {
 		Outer o = new Outer();

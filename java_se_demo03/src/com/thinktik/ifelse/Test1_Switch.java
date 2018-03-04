@@ -3,7 +3,7 @@ package com.thinktik.ifelse;
 /**
  * @author think
  * 2018年1月16日下午11:31:06
- * 
+ * case 穿透
  */
 class Test1_Switch {
 	public static void main(String[] args) {
@@ -12,7 +12,6 @@ class Test1_Switch {
 		switch (week) {
 		case 1:
 			System.out.println("星期一");
-		break;
 		case 2:
 			System.out.println("星期二");
 		break;

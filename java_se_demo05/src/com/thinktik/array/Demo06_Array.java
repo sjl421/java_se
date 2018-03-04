@@ -16,19 +16,20 @@ package com.thinktik.array;
  * 2018年1月16日下午11:55:02
  * 
  */
-class Demo6_Array {
+class Demo06_Array {
 	public static void main(String[] args) {
 		//数据类型[] 数组名 = new 数据类型[]{元素1,元素2,…};
-		//int[] arr = new int[5]{11,22,33,44,55};	//不允许动静结合
-		int[] arr2 = {11,22,33,44,55};			//静态初始化的简写形式
+		//int[] arr1 = new int[5]{11,22,33,44,55};	//error 不允许动静结合
+		int[] arr1 = {11,22,33,44,55};			    //静态初始化的简写形式
 
-		//int[] arr;								//声明数组引用
-		//arr = new int[]{11,22,33,44,55};
+		int[] arr2;								//声明数组引用
+		arr2 = new int[]{11,22,33,44,55};
 
-		//int[] arr2;
-		//arr2 = {11,22,33,44,55};				//简写形式声明和赋值在同一行
+		int[] arr3;
+		//arr3 = {11,22,33,44,55};				//error 简写形式声明和赋值在同一行
 
-		System.out.println(arr2);
-		System.out.println(arr2[4]);
+		int[] arr4 = {11,22,33,44,55};
+		System.out.println(arr4);
+		System.out.println(arr4[4]);
 	}
 }

@@ -11,7 +11,7 @@ package com.thinktik.array;
  * 2018年1月16日下午11:55:39
  * 
  */
-class Demo8_Array {
+class Demo08_Array {
 	public static void main(String[] args) {
 		int[] arr = {11,22,33,44,55};
 

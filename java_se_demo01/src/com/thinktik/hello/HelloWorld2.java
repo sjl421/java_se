@@ -12,7 +12,6 @@ public class HelloWorld2 { //这是一个类的声明,类名是Hello2	//单行�
 	public static void main(String[] args) {//这是主方法,是程序的入口
 		System.out.println("Hello world!");//这是输出语句,会在控制台输出一句话
 		
-		
 		/* 多行注释不能嵌套
 		故人西辞富士康
 		为学技术去蓝翔
@@ -24,8 +23,7 @@ public class HelloWorld2 { //这是一个类的声明,类名是Hello2	//单行�
 		包(其实就是文件夹,用于解决相同类名问题)
 		举例
 		包名要求全部小写,一般是公司的域名倒着写
-		www.heima.com
-		com.heima.包的作用
+		www.heima.com  -> com.heima
 		
 		类或者接口
 		一个单词和和多个单词分别举例

@@ -10,23 +10,21 @@ package com.thinktik.method;
 */
 class Demo2_Sum {
 	public static void main(String[] args) {
-		/*int a = 10;
+		int a = 10;
 		int b = 20;
-		int sum = a + b;
-		System.out.println(sum);
+		int sum1 = a + b;
+		System.out.println(sum1);
 
 		int c = 30;
 		int d = 40;
 		int sum2 = c + d;
-		System.out.println(sum2);*/
+		System.out.println(sum2);
 
-		int sum = add(10,20);
-		System.out.println(sum);
+		int sum3 = add(10,20);
+		System.out.println(sum3);
 
 		//add(30,40);						//有返回值方法的单独调用,没有意义
 		System.out.println(add(30,40));		//这样调用是可以,but如果需要用这个结果不推荐这样调用
-
-		//盘子 = 炒菜(地沟油,苏丹红,镉大米,烂白菜);
 	}
 
 	/*
@@ -54,12 +52,4 @@ class Demo2_Sum {
 		int sum = a + b;
 		return sum;									//如果有返回值必须用return语句带回
 	}
-
-	/*
-	盘子 炒菜(油,调料,米,菜) {
-		炒菜的动作
-		return 一盘菜;
-	}
-	*/
-
 }

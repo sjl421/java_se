@@ -2,7 +2,7 @@ package com.thinktik.TriOperator;
 
 /**
  * @author think 2018年1月13日下午9:58:37
- * 
+ * 三元运算符
  */
 public class TriOperator01 {
 	public static void main(String[] args) {

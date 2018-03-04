@@ -17,9 +17,9 @@ class Demo3_Method {
 		System.out.println("请输入列数:");
 		int column = sc.nextInt();						//将键盘录入的列数存储在column中
 		sc.close();
-		//System.out.println(print(row,column));		//错误: 此处不允许使用 '空' 类型,返回值是void的方法不能输出调用
 		//返回值是void的方法只能单独调用
 		print(row,column);
+		//System.out.println(print(row,column));		//错误: 此处不允许使用 '空' 类型,返回值是void的方法不能输出调用
 	}
 
 	/*
@@ -35,7 +35,7 @@ class Demo3_Method {
 			}
 			System.out.println();
 		}
-
+		return;
 		//return ;										//如果返回值类型是void,return可以省略,即使省略系统也会默认给加上,形式是return;
 	}
 }

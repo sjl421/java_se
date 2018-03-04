@@ -7,7 +7,7 @@ package com.thinktik.statics;
  */
 class Demo1_Static {
 	public static void main(String[] args) {
-		/*Person p1 = new Person();	//创建对象
+		Person p1 = new Person();	//创建对象
 		p1.name = "苍老师";			//调用姓名属性并赋值
 		p1.country = "日本";		//调用国籍属性并赋值
 		
@@ -17,7 +17,7 @@ class Demo1_Static {
 		//p2.country = "日本";		//调用国籍属性并赋值
 
 		p1.speak();
-		p2.speak();*/
+		p2.speak();
 
 		Person.country = "日本";	//静态多了一种调用方式,可以通过类名.
 		System.out.println(Person.country);

@@ -16,8 +16,8 @@ class Demo6_Extends {
 }
 
 /*
- * A:案例演示 父类没有无参构造方法,子类怎么办? super解决 this解决 B:注意事项
- * super(…)或者this(….)必须出现在构造方法的第一条语句上
+ * A:案例演示 父类没有无参构造方法,子类怎么办? super解决 this解决 
+ * B:注意事项 super(…)或者this(….)必须出现在构造方法的第一条语句上
  */
 class Father3 {
 	private String name; // 姓名
@@ -53,7 +53,7 @@ class Father3 {
 class Son3 extends Father3 {
 	public Son3() { // 空参构造
 		this("王五", 25); // 本类中的构造方法 必须出现在构造方法的第一条语句上
-		// super("李四",24); //调用父类中的构造方法
+//		 super("李四",24); //调用父类中的构造方法
 
 		System.out.println("Son 空参构造");
 	}

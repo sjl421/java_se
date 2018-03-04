@@ -2,7 +2,7 @@ package com.thinktik.bitOperator;
 
 /**
  * @author think 2018年1月13日下午9:53:09
- * 
+ * 移位
  */
 public class BitOperator03 {
 	public static void main(String[] args) {
@@ -14,11 +14,11 @@ public class BitOperator03 {
 		 */
 
 		// 左移,向左移动几位就是乘以2的几次幂
-		// System.out.println(12 << 1); //24
-		// System.out.println(12 << 2); //48
+		// System.out.println(12 << 1); //12*2=24
+		// System.out.println(12 << 2); //12*2*2=48
 
 		/*
-		 * 没计算,可能有错
+		 * 
 		 * 12       00000000 00000000 00000000 00001100 
 		 * 12的补码 (0)0000000 00000000 00000000 00001100
 		 * 24的补码 (00)000000 00000000 00000000 00011000 
@@ -26,8 +26,8 @@ public class BitOperator03 {
 		 */
 
 		// 右移,向右移动几位就是除以2的几次幂
-		// System.out.println(12 >> 1);
-		// System.out.println(12 >> 2);
+		 System.out.println(12 >> 1);
+		 System.out.println(12 >> 2);
 
 		/*
 		 * 00000000 00000000 00000000 00001100 12的补码 000000000 00000000 00000000

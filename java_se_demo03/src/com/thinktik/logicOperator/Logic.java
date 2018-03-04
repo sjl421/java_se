@@ -2,7 +2,7 @@ package com.thinktik.logicOperator;
 
 /**
  * @author think 2018年1月13日下午9:26:38
- * 
+ * 逻辑运算符
  */
 
 //强制逻辑 与& 或|
@@ -22,7 +22,7 @@ public class Logic {
 		System.out.println(a > b & b > c);				//false & false = false*/
 
 		//逻辑或 或or 遇true则true
-		/*System.out.println(a < b | b < c);				//true | true = true
+		/*System.out.println(a < b | b < c);			//true | true = true
 		System.out.println(a < b | b > c);				//true | false = true
 		System.out.println(a > b | b < c);				//false | true = true
 		System.out.println(a > b | b > c);				//false | flase = false*/

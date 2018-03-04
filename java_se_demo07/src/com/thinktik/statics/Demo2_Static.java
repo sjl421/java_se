@@ -42,7 +42,7 @@ class Demo {
 
 	public static void print2() {		//静态的成员方法
 		//System.out.println(this.num1);//静态的成员方法不能访问非静态的,错误: 无法从静态上下文中引用非静态 变量 num1
-		//String country = Person.country;
+		String country = Person.country;
 		System.out.println(num2);
 	}
 }

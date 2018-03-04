@@ -22,11 +22,11 @@ class Demo1_Final {
 	* final修饰特点
 */
 
-/*final class Father {
+final class Father {
 	public void print() {
 		System.out.println("访问底层数据资源");
 	}
-}*/
+}
 
 class Son /*extends Father*/ {
 	final int NUM = 10;						//常量命名规范,如果是一个单词,所有字母大写,如果是多个单词,每个单词都大写,中间用下划线隔开

@@ -29,6 +29,5 @@ class Demo12_Array {
 			}
 		}
 		return -1;
-		
 	}
 }

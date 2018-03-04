@@ -6,7 +6,7 @@ import org.junit.Test;
 
 /**
  * @author think 2018年1月13日下午10:43:42
- * 
+ * 键盘录入
  */
 
 public class KeyboardInput {

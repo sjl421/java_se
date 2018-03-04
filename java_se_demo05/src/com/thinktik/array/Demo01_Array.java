@@ -2,7 +2,7 @@ package com.thinktik.array;
 
 /*
 * A:为什么要有数组(容器)
-	* 为了存储同种数据类型的多个值
+	* 为了存储同种数据类型的多个值  注意c++,java这类强类型语言数值要求类型相同  js这类弱类型的一般没有这样的限制
 * B:数组概念
 	* 数组是存储同一种数据类型多个元素的集合。也可以看成是一个容器。
 	* 数组既可以存储基本数据类型，也可以存储引用数据类型。
@@ -15,7 +15,7 @@ package com.thinktik.array;
  * 2018年1月16日下午11:48:39
  * 
  */
-class Demo1_Array {
+class Demo01_Array {
 	public static void main(String[] args) {
 		int x = 10;
 		x = 20;

@@ -23,7 +23,7 @@ class Test1 {
 			if(x%3==0) {
 				//break;						//我想在控制台输出2次:“Java基础班“
 				//continue;						//我想在控制台输出7次:“Java基础班“
-				System.out.println("Java基础班");//我想在控制台输出13次:“Java基础班“	
+				System.out.println("Java基础班");//我想在控制台输出3次:“Java基础班“	
 			}
 			System.out.println("Java基础班");
 		}

@@ -11,7 +11,7 @@ class Demo1_Switch {
 		* A:switch语句的格式
 		*		int x = 10;
 				switch(表达式) {		//基本数据类型可以接收byte,short,char,int
-					  case 值1：		//引用数据类型可以接收枚举(JDK1.5)String字符串(JDK1.7)
+					  case 值1：		//引用数据类型可以接收枚举(JDK1.5) String字符串(JDK1.7)
 						语句体1;
 						break;
 					  case 值2：
@@ -47,5 +47,18 @@ class Demo1_Switch {
 				System.out.println(name + "是一位" + gender + "打雌性激素维持美貌容颜");
 				break;
 		}
+		
+		int x = 2;
+		int y = 3;
+		switch(x){
+			default:
+				y++;
+				//break;
+			case 3:
+				y++;
+			case 4:
+				y++;
+		}
+		System.out.println("y="+y); //6
 	}
 }

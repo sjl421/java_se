@@ -6,11 +6,11 @@ package com.thinktik.array;
  * 2018年1月16日下午11:53:02
  * 
  */
-class Demo5_Array {
+class Demo05_Array {
 	public static void main(String[] args) {
 		int[] arr1 = new int[3];
 		int[] arr2 = new int[5];
-		int[] arr3 = arr2;
+		int[] arr3 = arr2;//引用赋值  表示同一个对象
 
 		System.out.println(arr1);
 		System.out.println(arr2);

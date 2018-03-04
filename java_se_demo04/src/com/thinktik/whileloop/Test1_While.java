@@ -38,12 +38,11 @@ class Test1_While {
 
 			i++;
 		}
-
 		System.out.println("count =" + count);
 
 		//某屌丝为了追求女神,写了一段代码示爱,但是女神也会java,改动一下把屌丝拒绝
 		int j = 1;
-		while (j <= 10000) {
+		while (j <= 10000); {//注意分号,for  while if 等都要注意
 			System.out.println("I Love You!!!");
 			j++;
 		}
