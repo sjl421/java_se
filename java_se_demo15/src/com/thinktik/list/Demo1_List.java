@@ -17,11 +17,11 @@ public class Demo1_List {
 		* E set(int index,E element)
 	 */
 	public static void main(String[] args) {
-		//demo1();
+		demo1();
 		//demo2();
 		//demo3();
 		//demo4();
-		List list = new ArrayList();
+		List<String> list = new ArrayList<String>();
 		list.add("a");
 		list.add("b");
 		list.add("c");
@@ -32,7 +32,7 @@ public class Demo1_List {
 	}
 
 	public static void demo4() {
-		List list = new ArrayList();
+		List<String> list = new ArrayList<String>();
 		list.add("a");
 		list.add("b");
 		list.add("c");
@@ -47,7 +47,7 @@ public class Demo1_List {
 	}
 
 	public static void demo3() {
-		List list = new ArrayList();
+		List<Integer> list = new ArrayList<Integer>();
 		list.add(111);
 		list.add(222);
 		list.add(333);
@@ -69,14 +69,14 @@ public class Demo1_List {
 	}
 
 	public static void demo1() {
-		List list = new ArrayList();
+		List<String> list = new ArrayList<String>();
 		list.add("a");
 		list.add("b");
 		list.add("c");
 		list.add("d");
 		list.add(4, "f");						//index<=size并且index>=0都不会报异常
 		//list.add(1,"e");
-		//list.add(10, "z");					//java.lang.IndexOutOfBoundsException,当存储时使用不存在的索引时
+//		list.add(10, "z");					//java.lang.IndexOutOfBoundsException,当存储时使用不存在的索引时
 		System.out.println(list);
 	}
 

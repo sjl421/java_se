@@ -25,7 +25,6 @@ public class Demo2_StringBuffer {
 		StringBuffer sb3 = sb.append("heima");
 		StringBuffer sb4 = sb.append(100);
 		
-		
 		System.out.println(sb.toString());			//StringBuffer类中重写了toString方法,显示的是对象中的属性值
 		System.out.println(sb2.toString());
 		System.out.println(sb3.toString());

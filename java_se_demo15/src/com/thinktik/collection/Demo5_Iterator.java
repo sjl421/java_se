@@ -20,14 +20,14 @@ public class Demo5_Iterator {
 	 */
 	public static void main(String[] args) {
 		//demo1();
-		Collection c = new ArrayList();
+		Collection<Student> c = new ArrayList<Student>();
 		c.add(new Student("张三", 23));				//Object obj = new Student("张三",23);
 		c.add(new Student("李四", 24));
 		c.add(new Student("王五", 25));
 		c.add(new Student("赵六", 26));
 		
 		//获取迭代器
-		Iterator it = c.iterator();
+		Iterator<Student> it = c.iterator();
 		while(it.hasNext()) {
 			//System.out.println(it.next());
 			Student s = (Student)it.next();			//向下转型
@@ -37,14 +37,14 @@ public class Demo5_Iterator {
 	}
 
 	public static void demo1() {
-		Collection c = new ArrayList();
+		Collection<String> c = new ArrayList<String>();
 		c.add("a");
 		c.add("b");
 		c.add("c");
 		c.add("d");
 		
 		//对集合中的元素迭代(遍历)
-		Iterator it = c.iterator();					//获取迭代器
+		Iterator<String> it = c.iterator();					//获取迭代器
 		/*boolean b1 = it.hasNext();					//判断集合中是否有元素,有就返回true
 		Object obj1 = it.next();
 		System.out.println(b1);
