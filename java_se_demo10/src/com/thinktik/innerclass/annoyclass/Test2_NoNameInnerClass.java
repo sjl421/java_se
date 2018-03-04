@@ -7,7 +7,7 @@ package com.thinktik.innerclass.annoyclass;
  */
 class Test2_NoNameInnerClass {
 	public static void main(String[] args) {
-		//Outer.method().show();			//链式编程,每次调用方法后还能继续调用方法,证明调用方法返回的是对象
+		Outer3.method().show();			//链式编程,每次调用方法后还能继续调用方法,证明调用方法返回的是对象
 		Inter3 i = Outer3.method();
 		i.show();
 	}
@@ -28,4 +28,3 @@ class Outer3 {
 	}
 }
 
-//要求在控制台输出”HelloWorld”
