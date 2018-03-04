@@ -35,7 +35,7 @@ public class Demo1_Generic {
 
 	public static void demo1() {
 		ArrayList<Person> list = new ArrayList<Person>();
-	//	list.add(110);
+//		list.add(110);
 	//	list.add(true);
 		list.add(new Person("张三", 23));
 		list.add(new Person("李四", 24));

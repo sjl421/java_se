@@ -11,7 +11,7 @@ public class Demo1_HashSet {
 	 * Set集合,无索引,不可以重复,无序(存取不一致)
 	 */
 	public static void main(String[] args) {
-		//demo1();
+		demo1();
 		HashSet<Person> hs = new HashSet<>();
 		hs.add(new Person("张三", 23));
 		hs.add(new Person("张三", 23));

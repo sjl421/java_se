@@ -1,6 +1,6 @@
 package com.thinktik.syn;
 
-public class Demo4_Ticket {
+public class ThreadTicket01 {
 
 	/**
 	 * @param args

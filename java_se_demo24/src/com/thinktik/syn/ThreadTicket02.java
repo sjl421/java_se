@@ -1,6 +1,6 @@
 package com.thinktik.syn;
 
-public class Demo3_Ticket {
+public class ThreadTicket02 {
 
 	/**
 	 * 需求:铁路售票,一共100张,通过四个窗口卖完.

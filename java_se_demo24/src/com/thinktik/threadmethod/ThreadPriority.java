@@ -1,6 +1,6 @@
 package com.thinktik.threadmethod;
 
-public class Demo7_Priority {
+public class ThreadPriority {
 
 	/**
 	 * @param args

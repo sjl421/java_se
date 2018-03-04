@@ -1,6 +1,6 @@
 package com.thinktik.threadmethod;
 
-public class Demo3_Sleep {
+public class ThreadSleep {
 
 	/**
 	 * @param args
@@ -9,20 +9,21 @@ public class Demo3_Sleep {
 	public static void main(String[] args) throws InterruptedException {
 		//demo1();
 		new Thread() {
+			@Override
 			public void run() {
 				for(int i = 0; i < 10; i++) {
 					try {
 						Thread.sleep(1000);
 					} catch (InterruptedException e) {
-						
 						e.printStackTrace();
 					}
-					System.out.println(getName() + "...aaaaaaaaaa");
+					System.out.println(getName() + "...Thread1");
 				}
 			}
 		}.start();
 		
 		new Thread() {
+			@Override
 			public void run() {
 				for(int i = 0; i < 10; i++) {
 					try {
@@ -31,7 +32,7 @@ public class Demo3_Sleep {
 						
 						e.printStackTrace();
 					}
-					System.out.println(getName() + "...bb");
+					System.out.println(getName() + "...Thread2");
 				}
 			}
 		}.start();

@@ -1,6 +1,6 @@
 package com.thinktik.threadmethod;
 
-public class Demo4_Daemon {
+public class ThreadDaemon {
 
 	/**
 	 * @param args
@@ -10,7 +10,7 @@ public class Demo4_Daemon {
 		Thread t1 = new Thread() {
 			public void run() {
 				for(int i = 0; i < 2; i++) {
-					System.out.println(getName() + "...aaaaaaaaaaaaaaaaaaaa");
+					System.out.println(getName() + "...Thread1");
 				}
 			}
 		};
@@ -18,7 +18,7 @@ public class Demo4_Daemon {
 		Thread t2 = new Thread() {
 			public void run() {
 				for(int i = 0; i < 50; i++) {
-					System.out.println(getName() + "...bb");
+					System.out.println(getName() + "...Thread2");
 				}
 			}
 		};

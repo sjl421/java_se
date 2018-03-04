@@ -1,6 +1,6 @@
 package com.thinktik.threadmethod;
 
-public class Demo1_Name {
+public class ThreadName {
 
 	/**
 	 * @param args
@@ -9,7 +9,7 @@ public class Demo1_Name {
 		//demo1();
 		Thread t1 = new Thread() {
 			public void run() {
-				//this.setName("张三");
+//				this.setName("张三");
 				System.out.println(this.getName() + "....aaaaaaaaaaaaa");
 			}
 		};

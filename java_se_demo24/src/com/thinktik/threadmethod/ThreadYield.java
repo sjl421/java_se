@@ -1,6 +1,6 @@
 package com.thinktik.threadmethod;
 
-public class Demo6_Yield {
+public class ThreadYield {
 
 	/**
 	 * yield让出cpu礼让线程

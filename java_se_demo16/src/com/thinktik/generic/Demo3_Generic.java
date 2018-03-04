@@ -18,7 +18,7 @@ public class Demo3_Generic {
 	public static void main(String[] args) {
 		//demo1();
 		Tool<String> t = new Tool<>();
-		//t.show("abc");
+		t.show("abc");
 		t.show(true);
 	}
 
@@ -26,8 +26,6 @@ public class Demo3_Generic {
 		Tool<Student> t = new Tool<>();					//创建工具类对象
 		t.setObj(new Student("张三",23));
 		
-		//Worker w = (Worker) t.getObj();			//向下转型
-		//System.out.println(w);
 	}
 
 }

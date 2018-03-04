@@ -1,6 +1,6 @@
 package com.thinktik.syn;
 
-public class Demo5_DeadLock {
+public class ThreadDeadLock {
 
 	/**
 	 * @param args

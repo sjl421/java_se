@@ -1,6 +1,6 @@
 package com.thinktik.threadmethod;
 
-public class Demo2_CurrentThread {
+public class ThreadCurrentThread {
 
 	/**
 	 * @param args

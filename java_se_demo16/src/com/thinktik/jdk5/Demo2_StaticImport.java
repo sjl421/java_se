@@ -1,7 +1,6 @@
 package com.thinktik.jdk5;
 
 import static java.util.Arrays.sort;			//静态导入
-import static java.util.Arrays.toString;			//静态导入
 
 public class Demo2_StaticImport {
 
