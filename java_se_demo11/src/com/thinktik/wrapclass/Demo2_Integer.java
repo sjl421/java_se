@@ -18,7 +18,6 @@ public class Demo2_Integer {
 	public static void main(String[] args) {
 		System.out.println(Integer.MAX_VALUE);
 		System.out.println(Integer.MIN_VALUE);
-		
 		Integer i1 = new Integer(100);
 		System.out.println(i1);
 		
