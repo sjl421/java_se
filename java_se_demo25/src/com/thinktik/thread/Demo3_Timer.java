@@ -5,11 +5,6 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class Demo3_Timer {
-
-	/**
-	 * @param args
-	 * @throws InterruptedException 
-	 */
 	public static void main(String[] args) throws InterruptedException {
 		Timer t = new Timer();
 		//在指定时间安排指定任务
@@ -21,11 +16,9 @@ public class Demo3_Timer {
 			System.out.println(new Date());
 		}
 	}
-
 }
 
 class MyTimerTask extends TimerTask {
-
 	@Override
 	public void run() {
 		System.out.println("起床背英语单词");
