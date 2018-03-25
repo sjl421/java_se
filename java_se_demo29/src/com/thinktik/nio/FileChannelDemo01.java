@@ -1,4 +1,4 @@
-package com.thinktik;
+package com.thinktik.nio;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

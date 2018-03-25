@@ -1,4 +1,4 @@
-package com.thinktik;
+package com.thinktik.nio;
 
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
