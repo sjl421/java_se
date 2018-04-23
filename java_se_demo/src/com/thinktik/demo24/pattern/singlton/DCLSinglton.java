@@ -1,21 +1,21 @@
 package com.thinktik.demo24.pattern.singlton;
 
 public class DCLSinglton {
-	private volatile static DCLSinglton singleton;
+    private volatile static DCLSinglton singleton;
 
-	private DCLSinglton() {
-	}
+    private DCLSinglton() {
+    }
 
-	public static DCLSinglton getSingleton() {
-		if (singleton == null) {
-			synchronized (DCLSinglton.class) {
-				if (singleton == null) {
-					singleton = new DCLSinglton();
-				}
-			}
-		}
-		return singleton;
-	}
+    public static DCLSinglton getSingleton() {
+        if (singleton == null) {
+            synchronized (DCLSinglton.class) {
+                if (singleton == null) {
+                    singleton = new DCLSinglton();
+                }
+            }
+        }
+        return singleton;
+    }
 }
 
 

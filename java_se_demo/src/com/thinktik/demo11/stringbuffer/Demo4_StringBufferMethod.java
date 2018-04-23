@@ -3,25 +3,24 @@ package com.thinktik.demo11.stringbuffer;
 /**
  * @author think
  * 2018年1月18日下午10:02:07
- * 
  */
 public class Demo4_StringBufferMethod {
 
-	/**
-	 * * A:StringBuffer的替换功能
-			* public StringBuffer replace(int start,int end,String str):
-				* 从start开始到end用str替换
-		* B:StringBuffer的反转功能
-			* public StringBuffer reverse():
-				* 字符串反转
-	 */
-	public static void main(String[] args) {
-		StringBuffer sb = new StringBuffer("我爱总复习");
-		//sb.replace(0, 3, "bai");					//替换
-		//System.out.println(sb);
-		
-		sb.reverse();
-		System.out.println(sb);
-	}
+    /**
+     * * A:StringBuffer的替换功能
+     * public StringBuffer replace(int start,int end,String str):
+     * 从start开始到end用str替换
+     * B:StringBuffer的反转功能
+     * public StringBuffer reverse():
+     * 字符串反转
+     */
+    public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer("我爱总复习");
+        //sb.replace(0, 3, "bai");					//替换
+        //System.out.println(sb);
+
+        sb.reverse();
+        System.out.println(sb);
+    }
 
 }

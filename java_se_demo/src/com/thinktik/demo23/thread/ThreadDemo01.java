@@ -10,12 +10,12 @@ package com.thinktik.demo23.thread;
  * */
 
 public class ThreadDemo01 {
-	public static void main(String[] args) {
-		MyThread thread = new MyThread();
-		thread.start();
-		
-		for(int i=0;i<1000;i++) {
-			System.out.println("main  "+i);
-		}
-	}
+    public static void main(String[] args) {
+        MyThread thread = new MyThread();
+        thread.start();
+
+        for (int i = 0; i < 1000; i++) {
+            System.out.println("main  " + i);
+        }
+    }
 }

@@ -9,25 +9,25 @@ package com.thinktik.demo04.forloop;
 	3,判断是否满足水仙花数
 	4,如果满足条件,计数器就自增
 */
+
 /**
  * @author think
  * 2018年1月16日下午11:45:33
- * 
  */
 class Test4_FlowerCount {
-	public static void main(String[] args) {
-		int count = 0;
+    public static void main(String[] args) {
+        int count = 0;
 
-		for (int i = 100;i <= 999 ;i++ ) {
-			int ge = i % 10;
-			int shi = i / 10 % 10;
-			int bai = i / 10 / 10;
+        for (int i = 100; i <= 999; i++) {
+            int ge = i % 10;
+            int shi = i / 10 % 10;
+            int bai = i / 10 / 10;
 
-			if (i == ge * ge * ge + shi * shi * shi + bai * bai * bai) {
-				count ++;													//满足条件就自增,计数器思想
-			}
-		}
+            if (i == ge * ge * ge + shi * shi * shi + bai * bai * bai) {
+                count++;                                                    //满足条件就自增,计数器思想
+            }
+        }
 
-		System.out.println(count);
-	}
+        System.out.println(count);
+    }
 }

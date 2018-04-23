@@ -2,12 +2,12 @@ package com.thinktik.demo17.bean;
 
 public class BaseStudent extends Student {
 
-	public BaseStudent() {
-	}
+    public BaseStudent() {
+    }
 
-	public BaseStudent(String name, int age) {
-		super(name, age);
+    public BaseStudent(String name, int age) {
+        super(name, age);
 
-	}
+    }
 
 }

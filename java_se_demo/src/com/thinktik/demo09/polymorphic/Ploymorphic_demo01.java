@@ -16,15 +16,15 @@ package com.thinktik.demo09.polymorphic;
 //
 //只有非静态成员方法;编译看左边(父类),运行看右边(子类);
 public class Ploymorphic_demo01 {
-	public static void main(String[] args) {
-		Cat c = new Cat();
-		c.eat();
-		c.print();
-		System.out.println(c.leg);
-		Animal a = new Cat();
-		a.eat();
-		a.print();
-		System.out.println(a.leg);
-		
-	}
+    public static void main(String[] args) {
+        Cat c = new Cat();
+        c.eat();
+        c.print();
+        System.out.println(c.leg);
+        Animal a = new Cat();
+        a.eat();
+        a.print();
+        System.out.println(a.leg);
+
+    }
 }

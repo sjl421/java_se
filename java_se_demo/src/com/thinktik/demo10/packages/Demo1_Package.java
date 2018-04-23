@@ -1,11 +1,9 @@
 package com.thinktik.demo10.packages;
 
 
-
 /**
  * @author think
  * 2018年1月18日下午9:36:55
- * 
  */
 
 /*
@@ -18,14 +16,14 @@ package com.thinktik.demo10.packages;
  * C:如果没有package，默认表示无包名
  */
 class Demo1_Package {
-	public static void main(String[] args) {
-		Person p = new Person("张三",23);
-		System.out.println(p.getName() + "..." + p.getAge());
-		p.print();			//在不同包下的无关类,不允许访问,因为是protected修饰的
+    public static void main(String[] args) {
+        Person p = new Person("张三", 23);
+        System.out.println(p.getName() + "..." + p.getAge());
+        p.print();            //在不同包下的无关类,不允许访问,因为是protected修饰的
 
-		
-		Student s = new Student("李四",24);
-		System.out.println(s.getName() + "..." + s.getAge());
-		s.method();
-	}
+
+        Student s = new Student("李四", 24);
+        System.out.println(s.getName() + "..." + s.getAge());
+        s.method();
+    }
 }

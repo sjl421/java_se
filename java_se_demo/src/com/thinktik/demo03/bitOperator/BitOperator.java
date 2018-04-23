@@ -5,19 +5,19 @@ package com.thinktik.demo03.bitOperator;
  * 位操作
  */
 public class BitOperator {
-	public static void main(String[] args) {
-		/*
-		* &,|,^,~ 的用法
-		* &:有0则0
-		* |:有1则1
-		* ^:相同则0，不同则1
-		* ~:按位取反
-		*/
+    public static void main(String[] args) {
+        /*
+         * &,|,^,~ 的用法
+         * &:有0则0
+         * |:有1则1
+         * ^:相同则0，不同则1
+         * ~:按位取反
+         */
 
-		System.out.println(6 & 3);				//2  110  11  10 2 
-		System.out.println(6 | 3);				//7  110  11  111 7
-		System.out.println(6 ^ 3);				//5	 110  11  101 5
-		System.out.println(~6);					//-7  
+        System.out.println(6 & 3);                //2  110  11  10 2
+        System.out.println(6 | 3);                //7  110  11  111 7
+        System.out.println(6 ^ 3);                //5	 110  11  101 5
+        System.out.println(~6);                    //-7
 		
 		/*
 			110
@@ -42,5 +42,5 @@ public class BitOperator {
 			11111111 11111111 11111111 11111000		反码
 			10000000 00000000 00000000 00000111		原码(-7)
 		*/
-	}
+    }
 }

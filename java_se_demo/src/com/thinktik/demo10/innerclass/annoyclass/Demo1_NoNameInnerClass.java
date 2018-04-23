@@ -1,15 +1,7 @@
 package com.thinktik.demo10.innerclass.annoyclass;
 
-/**
- * @author think
- * 2018年1月18日下午9:16:57
- * 
- */
-class Demo1_NoNameInnerClass {
-	public static void main(String[] args) {
-		Outer1 o = new Outer1();
-		o.method();
-	}
+interface Inter1 {
+    public void print();
 }
 /*
 //* A:匿名内部类
@@ -27,27 +19,35 @@ class Demo1_NoNameInnerClass {
 	* 按照要求来一个匿名内部类
 */
 
-interface Inter1 {
-	public void print();
+/**
+ * @author think
+ * 2018年1月18日下午9:16:57
+ */
+class Demo1_NoNameInnerClass {
+    public static void main(String[] args) {
+        Outer1 o = new Outer1();
+        o.method();
+    }
 }
 
 class Outer1 {
-	class Inner implements Inter1 {//成员内部类
-		public void print() {
-			System.out.println("print");
-		}
-	}
+    public void method() {
+        Inner i = new Inner();                // 成员内部类 实例
+        i.print();
+        new Inner().print();
+        Inter1 i2 = new Inner();            //父类引用指向子类对象 成员内部类 实例
 
-	public void method(){
-		Inner i = new Inner();				// 成员内部类 实例
-		i.print();
-		new Inner().print();
-		Inter1 i2 = new Inner();			//父类引用指向子类对象 成员内部类 实例
-		
-		new Inter1() {						//实现Inter接口  匿名内部类
-			public void print() {			//重写抽象方法
-				System.out.println("print");
-			}
-		}.print();
-	}
+        new Inter1() {                        //实现Inter接口  匿名内部类
+            public void print() {            //重写抽象方法
+                System.out.println("print");
+            }
+        }.print();
+    }
+
+    class Inner implements Inter1 {//成员内部类
+
+        public void print() {
+            System.out.println("print");
+        }
+    }
 }

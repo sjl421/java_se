@@ -15,33 +15,33 @@ package com.thinktik.demo04.forfor;
 * B:结论：
 	* 外循环控制行数，内循环控制列数
 */
+
 /**
  * @author think
  * 2018年1月16日下午11:44:44
- * 
  */
 class Demo1_ForFor {
-	public static void main(String[] args) {
-		for (int i = 1;i <= 3 ;i++ ) {					//外循环
-			System.out.println("i = " + i);
-			for (int j = 1;j <= 3 ;j++ ) {				//内循环
-				System.out.println("j = " + j);
-			}
-		}
+    public static void main(String[] args) {
+        for (int i = 1; i <= 3; i++) {                    //外循环
+            System.out.println("i = " + i);
+            for (int j = 1; j <= 3; j++) {                //内循环
+                System.out.println("j = " + j);
+            }
+        }
 
-		for (int i = 1;i <= 4 ;i++ ) {					//外循环决定的是行数
-			for (int j = 1;j <= 5 ;j++ ) {				//内循环决定的是列数
-				System.out.print("*");
-			}
-			System.out.println();
-		}
-	}
+        for (int i = 1; i <= 4; i++) {                    //外循环决定的是行数
+            for (int j = 1; j <= 5; j++) {                //内循环决定的是列数
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
 }
 
 /*
-*****
-*****
-*****
-*****
+ *****
+ *****
+ *****
+ *****
 
-*/
+ */

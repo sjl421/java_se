@@ -5,17 +5,17 @@ package com.thinktik.demo24.pattern.singlton;
  * 2018年3月4日下午11:21:49
  */
 public class LazySinglton {
-	private static LazySinglton instance;
+    private static LazySinglton instance;
 
-	private LazySinglton() {
-	}
+    private LazySinglton() {
+    }
 
-	public static synchronized LazySinglton getInstance() {
-		if (instance == null) {
-			instance = new LazySinglton();
-		}
-		return instance;
-	}
+    public static synchronized LazySinglton getInstance() {
+        if (instance == null) {
+            instance = new LazySinglton();
+        }
+        return instance;
+    }
 }
 
 

@@ -22,14 +22,14 @@ package com.thinktik.demo05.array2;
 * E:案例演示
 	* 定义二维数组，输出二维数组名称，一维数组名称，一个元素
 */
+
 /**
  * @author think
  * 2018年1月16日下午11:59:45
- * 
  */
 class Demo1_Array {
-	public static void main(String[] args) {
-		int[][] arr = new int[3][2];
+    public static void main(String[] args) {
+        int[][] arr = new int[3][2];
 		/*
 		这是一个二维数组
 		这个二维数组中有3个一维数组
@@ -39,8 +39,8 @@ class Demo1_Array {
 		[I@da6bf4									//一维数组的地址值
 		0											//元素值
 		*/
-		System.out.println(arr);					//二维数组
-		System.out.println(arr[0]);					//二维数组中的第一个一维数组
-		System.out.println(arr[0][0]);				//二维数组中的第一个一维数组的第一个元素
-	}
+        System.out.println(arr);                    //二维数组
+        System.out.println(arr[0]);                    //二维数组中的第一个一维数组
+        System.out.println(arr[0][0]);                //二维数组中的第一个一维数组的第一个元素
+    }
 }

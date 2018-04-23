@@ -5,13 +5,13 @@ package com.thinktik.demo03.TriOperator;
  * 三元运算符
  */
 public class TriOperator01 {
-	public static void main(String[] args) {
-		//(关系表达式) ? 表达式1 : 表达式2;
-		int x = 10;
-		int y = 5;
-		int z;
-		z = (x > y) ? x : y;
+    public static void main(String[] args) {
+        //(关系表达式) ? 表达式1 : 表达式2;
+        int x = 10;
+        int y = 5;
+        int z;
+        z = (x > y) ? x : y;
 
-		System.out.println("z = " + z);
-	}
+        System.out.println("z = " + z);
+    }
 }
