@@ -3,7 +3,6 @@ package com.thinktik.demo03.ifelse;
 /**
  * @author think
  * 2018年1月16日下午11:31:15
- * 
  */
 /*
  * A:案例演示
@@ -11,24 +10,24 @@ package com.thinktik.demo03.ifelse;
  * if语句的嵌套使用。
  */
 class Demo6_IfIf {
-	public static void main(String[] args) {
-		int a = 40;
-		int b = 50;
-		int c = 30;
-		
-		if (a > b) {
-			if (a > c) {
-				System.out.println(a + "是最大值");
-			}else {
-				System.out.println(c + "是最大值");
-			}
+    public static void main(String[] args) {
+        int a = 40;
+        int b = 50;
+        int c = 30;
 
-		}else {	//b >= a
-			if (b > c) {
-				System.out.println(b + "是最大值");
-			}else {
-				System.out.println(c + "是最大值");
-			}
-		}
-	}
+        if (a > b) {
+            if (a > c) {
+                System.out.println(a + "是最大值");
+            } else {
+                System.out.println(c + "是最大值");
+            }
+
+        } else {    //b >= a
+            if (b > c) {
+                System.out.println(b + "是最大值");
+            } else {
+                System.out.println(c + "是最大值");
+            }
+        }
+    }
 }

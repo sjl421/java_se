@@ -26,17 +26,17 @@ package com.thinktik.demo04.whileloop;
 * C:案例演示
 	* 需求：请在控制台输出数据1-10
 */
+
 /**
  * @author think
  * 2018年1月16日下午11:47:23
- * 
  */
 class Demo1_While {
-	public static void main(String[] args) {
-		int x = 1;
-		while (x <= 10) {
-			System.out.println("x = " +  x);
-			x++;
-		}
-	}
+    public static void main(String[] args) {
+        int x = 1;
+        while (x <= 10) {
+            System.out.println("x = " + x);
+            x++;
+        }
+    }
 }

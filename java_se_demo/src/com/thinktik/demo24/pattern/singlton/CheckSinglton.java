@@ -1,16 +1,16 @@
 package com.thinktik.demo24.pattern.singlton;
 
 public class CheckSinglton {
-	private static class SingletonHolder {
-		private static final CheckSinglton INSTANCE = new CheckSinglton();
-	}
+    private CheckSinglton() {
+    }
 
-	private CheckSinglton() {
-	}
+    public static final CheckSinglton getInstance() {
+        return SingletonHolder.INSTANCE;
+    }
 
-	public static final CheckSinglton getInstance() {
-		return SingletonHolder.INSTANCE;
-	}
+    private static class SingletonHolder {
+        private static final CheckSinglton INSTANCE = new CheckSinglton();
+    }
 }
 
 /*是否 Lazy 初始化：是

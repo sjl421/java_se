@@ -13,21 +13,21 @@ package com.thinktik.demo04.forloop;
 	2,获取每一个位数的值,百位,十位,个位
 	3,判断各个位上的立方和是否等于这个数,如果等于打印
 */
+
 /**
  * @author think
  * 2018年1月16日下午11:45:30
- * 
  */
 class Test3_Flower {
-	public static void main(String[] args) {
-		for (int i = 100;i <= 999 ;i++ ) {					//获取100到999之间的数
-			int ge = i % 10;								//123 % 10 
-			int shi = i / 10 % 10;							//12 % 10;
-			int bai = i / 10 / 10 % 10;						//1 % 10
+    public static void main(String[] args) {
+        for (int i = 100; i <= 999; i++) {                    //获取100到999之间的数
+            int ge = i % 10;                                //123 % 10
+            int shi = i / 10 % 10;                            //12 % 10;
+            int bai = i / 10 / 10 % 10;                        //1 % 10
 
-			if (ge * ge * ge + shi * shi * shi + bai * bai * bai == i) {
-				System.out.println(i);
-			}
-		}
-	}
+            if (ge * ge * ge + shi * shi * shi + bai * bai * bai == i) {
+                System.out.println(i);
+            }
+        }
+    }
 }

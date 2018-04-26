@@ -4,7 +4,6 @@ package com.thinktik.demo03.ifelse;
 /**
  * @author think
  * 2018年1月13日下午10:52:26
- * 
  */
 
 /*
@@ -21,13 +20,13 @@ package com.thinktik.demo03.ifelse;
 
 //加public表示全局类，该类可以import到任何类内。不加public默认为保留类，只能被同一个包内的其他类引用。
 class Demo1_If {
-	public static void main(String[] args) {
-		int age = 17;
+    public static void main(String[] args) {
+        int age = 17;
 
-		if (age >= 18) {
-			System.out.println("可以浏览本网站");
-		}
+        if (age >= 18) {
+            System.out.println("可以浏览本网站");
+        }
 
-		System.out.println("完了");
-	}
+        System.out.println("完了");
+    }
 }

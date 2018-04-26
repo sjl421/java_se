@@ -13,19 +13,19 @@ package com.thinktik.demo05.array;
 * E:寄存器
 	* 给CPU使用
 */
+
 /**
  * @author think
  * 2018年1月16日下午11:52:02
- * 
  */
 class Demo03_Array {
-	public static void main(String[] args) {
-		int[] arr = new int[3];						//动态初始化,创建3块连续的空间
-		System.out.println(arr);
-		arr[0] = 10;
-		arr[1] = 20;
+    public static void main(String[] args) {
+        int[] arr = new int[3];                        //动态初始化,创建3块连续的空间
+        System.out.println(arr);
+        arr[0] = 10;
+        arr[1] = 20;
 
-		System.out.println(arr[0]);
-		System.out.println(arr[1]);
-	}
+        System.out.println(arr[0]);
+        System.out.println(arr[1]);
+    }
 }

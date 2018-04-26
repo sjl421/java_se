@@ -1,9 +1,10 @@
 package com.thinktik.demo24.pattern.singlton;
 
-public enum EMUSinglton {  
-    INSTANCE;  
-    public void whateverMethod() {  
-    }  
+public enum EMUSinglton {
+    INSTANCE;
+
+    public void whateverMethod() {
+    }
 } 
 
 /*JDK 版本：JDK1.5 起

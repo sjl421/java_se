@@ -3,14 +3,13 @@ package com.thinktik.demo08.extend;
 /**
  * @author think
  * 2018年1月17日下午10:53:04
- * 
  */
 class Demo7_Phone {
-	public static void main(String[] args) {
-		Ios8 i = new Ios8();
-		i.siri();
-		i.call();
-	}
+    public static void main(String[] args) {
+        Ios8 i = new Ios8();
+        i.siri();
+        i.call();
+    }
 }
 
 /*
@@ -19,19 +18,19 @@ class Demo7_Phone {
  */
 
 class Ios7 {
-	public void call() {
-		System.out.println("打电话");
-	}
+    public void call() {
+        System.out.println("打电话");
+    }
 
-	public void siri() {
-		System.out.println("speak English");
-	}
+    public void siri() {
+        System.out.println("speak English");
+    }
 }
 
 class Ios8 extends Ios7 {
-	@Override
-	public void siri() {
-		System.out.println("说中文");
-		super.siri();
-	}
+    @Override
+    public void siri() {
+        System.out.println("说中文");
+        super.siri();
+    }
 }

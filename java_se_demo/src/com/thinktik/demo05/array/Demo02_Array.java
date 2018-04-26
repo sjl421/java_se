@@ -26,22 +26,22 @@ package com.thinktik.demo05.array;
 	@是固定的
 	19bb25a代表的是数组的地址值
  */
+
 /**
  * @author think
  * 2018年1月16日下午11:51:58
- * 
  */
 class Demo02_Array {
-	public static void main(String[] args) {
-		//数据类型[] 数组名 = new 数据类型[数组长度];
-		int[] arr = new int[5];				//动态初始化,在内存中开辟连续的5块空间
+    public static void main(String[] args) {
+        //数据类型[] 数组名 = new 数据类型[数组长度];
+        int[] arr = new int[5];                //动态初始化,在内存中开辟连续的5块空间
 
-		System.out.println(arr[0]);			//系统给出默认初始化值,整数类型的都是0
-											
-		arr[0] = 10;
+        System.out.println(arr[0]);            //系统给出默认初始化值,整数类型的都是0
 
-		System.out.println(arr[0]);	
+        arr[0] = 10;
 
-		System.out.println(arr);			//[I@19bb25a
-	}
+        System.out.println(arr[0]);
+
+        System.out.println(arr);            //[I@19bb25a
+    }
 }

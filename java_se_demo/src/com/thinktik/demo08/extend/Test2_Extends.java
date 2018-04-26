@@ -3,7 +3,6 @@ package com.thinktik.demo08.extend;
 /**
  * @author think
  * 2018年1月17日下午11:01:17
- * 
  */
 /*
 	1,jvm调用了main方法,main进栈
@@ -16,35 +15,36 @@ package com.thinktik.demo08.extend;
 	4,Fu类初始化结束,子类初始化,第五个输出的是构造代码块Zi,构造方法Zi
  */
 class Test2_Extends {
-	public static void main(String[] args) {
-		Zi1 z = new Zi1();
-	}
+    public static void main(String[] args) {
+        Zi1 z = new Zi1();
+    }
 }
+
 class Fu1 {
-	static {
-		System.out.println("静态代码块Fu");
-	}
+    static {
+        System.out.println("静态代码块Fu");
+    }
 
-	{
-		System.out.println("构造代码块Fu");
-	}
+    {
+        System.out.println("构造代码块Fu");
+    }
 
-	public Fu1() {
-		System.out.println("构造方法Fu");
-	}
+    public Fu1() {
+        System.out.println("构造方法Fu");
+    }
 }
 
 class Zi1 extends Fu1 {
-	static {
-		System.out.println("静态代码块Zi");
-	}
+    static {
+        System.out.println("静态代码块Zi");
+    }
 
-	{
-		System.out.println("构造代码块Zi");
-	}
+    {
+        System.out.println("构造代码块Zi");
+    }
 
-	public Zi1() {
-		System.out.println("构造方法Zi");
-	}
+    public Zi1() {
+        System.out.println("构造方法Zi");
+    }
 }
 

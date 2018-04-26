@@ -3,7 +3,6 @@ package com.thinktik.demo03.ifelse;
 /**
  * @author think
  * 2018年1月13日下午10:51:59
- * 
  */
 /*
  * A:if语句的格式2
@@ -24,15 +23,15 @@ package com.thinktik.demo03.ifelse;
  * 注意事项：else后面是没有比较表达式的，只有if后面有。
  */
 class Demo3_If {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		/*int x = 0;
 		if (x == 1) {
 			System.out.println("男厕所欢迎您");
 		}else {
 			System.out.println("女厕所欢迎您");
 		}*/
-		
-		//a:获取两个数据中较大的值
+
+        //a:获取两个数据中较大的值
 		/*int x = 10;
 		int y = 20;
 		int z;
@@ -44,13 +43,13 @@ class Demo3_If {
 		}
 
 		System.out.println(z);*/
-		
-		//b:判断一个数据是奇数还是偶数,并输出是奇数还是偶数
-		int num = 11;
-		if (num % 2 == 0) {
-			System.out.println(num + "是一个偶数");
-		}else {
-			System.out.println(num + "是一个奇数");
-		}
-	}
+
+        //b:判断一个数据是奇数还是偶数,并输出是奇数还是偶数
+        int num = 11;
+        if (num % 2 == 0) {
+            System.out.println(num + "是一个偶数");
+        } else {
+            System.out.println(num + "是一个奇数");
+        }
+    }
 }

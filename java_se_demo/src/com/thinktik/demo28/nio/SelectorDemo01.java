@@ -1,16 +1,11 @@
 package com.thinktik.demo28.nio;
 
-import java.nio.channels.SelectionKey;
-import java.nio.channels.Selector;
-import java.util.Iterator;
-import java.util.Set;
-
 public class SelectorDemo01 {
-	public static void main(String[] args) {
-		useNioSelector();
-	}
+    public static void main(String[] args) {
+        useNioSelector();
+    }
 
-	public static void useNioSelector() {
+    public static void useNioSelector() {
 //		Selector selector = Selector.open();
 //
 //		channel.configureBlocking(false);
@@ -36,5 +31,5 @@ public class SelectorDemo01 {
 //				keyIterator.remove();
 //			}
 //		}
-	}
+    }
 }

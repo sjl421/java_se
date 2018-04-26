@@ -8,36 +8,36 @@ Java中到底是传值还是传址
 1,既是传值,也是传地址,基本数据类型传递的值,引用数据类型传递的地址
 2,java中只有传值,因为地址值也是值 java语言之父指出
 */
+
 /**
  * @author think
  * 2018年1月17日上午12:00:33
- * 
  */
 class Test3_Array {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		/*int a = 10;
 		int b = 20;
 		System.out.println("a:"+a+",b:"+b);			//a = 10,b = 20
 		change(a,b);
 		System.out.println("a:"+a+",b:"+b);			//?*/
 
-		int[] arr = {1,2,3,4,5};
-		change(arr);
-		System.out.println(arr[1]);
-	}
+        int[] arr = {1, 2, 3, 4, 5};
+        change(arr);
+        System.out.println(arr[1]);
+    }
 
-	public static void change(int a,int b) {		//a = 10, b= 20
-		System.out.println("a:"+a+",b:"+b);			//a = 10,b = 20
-		a = b;										//a = 20
-		b = a + b;									//b = 40
-		System.out.println("a:"+a+",b:"+b);			//a = 20, b = 40
-	}
+    public static void change(int a, int b) {        //a = 10, b= 20
+        System.out.println("a:" + a + ",b:" + b);            //a = 10,b = 20
+        a = b;                                        //a = 20
+        b = a + b;                                    //b = 40
+        System.out.println("a:" + a + ",b:" + b);            //a = 20, b = 40
+    }
 
-	public static void change(int[] arr) {			//1,4,3,8,5
-		for(int x=0; x<arr.length; x++) {
-			if(arr[x]%2==0) {
-				arr[x]*=2;
-			}
-		}
-	}
+    public static void change(int[] arr) {            //1,4,3,8,5
+        for (int x = 0; x < arr.length; x++) {
+            if (arr[x] % 2 == 0) {
+                arr[x] *= 2;
+            }
+        }
+    }
 }

@@ -25,20 +25,20 @@ package com.thinktik.demo03.ifelse;
 	* 如果都是false，就执行语句体n+1。
 * C:注意事项:最后一个else可以省略,但是建议不要省略,可以对范围外的错误值提示 
 */
+
 /**
  * @author think
  * 2018年1月16日下午11:31:25
- * 
  */
 class Demo5_If {
-	public static void main(String[] args) {
-		int x = 2;
-		if (x == 1) {
-			System.out.println("男厕所欢迎您");
-		}else if (x == 0) {
-			System.out.println("女厕所欢迎您");
-		}else {
-			System.out.println("无法识别您的性别");
-		}
-	}
+    public static void main(String[] args) {
+        int x = 2;
+        if (x == 1) {
+            System.out.println("男厕所欢迎您");
+        } else if (x == 0) {
+            System.out.println("女厕所欢迎您");
+        } else {
+            System.out.println("无法识别您的性别");
+        }
+    }
 }

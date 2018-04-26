@@ -3,10 +3,9 @@ package com.thinktik.demo07.statics;
 /**
  * @author think
  * 2018年1月17日下午9:52:04
- * 
  */
 class Demo3_Main {
-	public static void main(String[] args) {			
+    public static void main(String[] args) {
 		/*
 		public : 被jvm调用,所以权限要足够大
 		static : 被jvm调用,不需要创建对象,直接类名.调用即可
@@ -15,9 +14,9 @@ class Demo3_Main {
 		String[] args : 以前是用来接收键盘录入的
 		*/
 
-		System.out.println(args.length);
-		for (int i = 0;i < args.length ;i++ ) {
-			System.out.println(args[i]);
-		}
-	}
+        System.out.println(args.length);
+        for (int i = 0; i < args.length; i++) {
+            System.out.println(args[i]);
+        }
+    }
 }

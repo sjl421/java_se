@@ -1,9 +1,9 @@
 package com.thinktik.demo04.method;
 
 class Demo1_Method {
-	public static void main(String[] args) {
-		
-	}
+    public static void main(String[] args) {
+
+    }
 
 	/*
 	* C:方法的格式

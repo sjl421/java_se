@@ -3,10 +3,9 @@ package com.thinktik.demo03.ifelse;
 /**
  * @author think
  * 2018年1月13日下午10:53:13
- * 
  */
 class Demo1_Switch {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		/*
 		* A:switch语句的格式
 		*		int x = 10;
@@ -34,31 +33,31 @@ class Demo1_Switch {
 			* 否则执行default控制的语句
 		*/
 
-		String name = "rose";
-		String gender = "妖";
-		switch (gender) {
-			case "男士":
-				System.out.println(name + "是一位" + gender + "喜欢吃饭睡觉打dota");
-				break;
-			case "女士":
-				System.out.println(name + "是一位" + gender + "喜欢逛街购物美容");
-				break;
-			default:
-				System.out.println(name + "是一位" + gender + "打雌性激素维持美貌容颜");
-				break;
-		}
-		
-		int x = 2;
-		int y = 3;
-		switch(x){
-			default:
-				y++;
-				//break;
-			case 3:
-				y++;
-			case 4:
-				y++;
-		}
-		System.out.println("y="+y); //6
-	}
+        String name = "rose";
+        String gender = "妖";
+        switch (gender) {
+            case "男士":
+                System.out.println(name + "是一位" + gender + "喜欢吃饭睡觉打dota");
+                break;
+            case "女士":
+                System.out.println(name + "是一位" + gender + "喜欢逛街购物美容");
+                break;
+            default:
+                System.out.println(name + "是一位" + gender + "打雌性激素维持美貌容颜");
+                break;
+        }
+
+        int x = 2;
+        int y = 3;
+        switch (x) {
+            default:
+                y++;
+                //break;
+            case 3:
+                y++;
+            case 4:
+                y++;
+        }
+        System.out.println("y=" + y); //6
+    }
 }

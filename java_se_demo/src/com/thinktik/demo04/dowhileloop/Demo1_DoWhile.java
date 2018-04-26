@@ -24,52 +24,52 @@ package com.thinktik.demo04.dowhileloop;
 * C:案例演示
 	* 需求：请在控制台输出数据1-10
 */
+
 /**
  * @author think 2018年1月16日下午11:44:31
- * 
  */
 class Demo1_DoWhile {
-	public static void main(String[] args) {
-		// while 和do while的区别
-		int i1 = 11;
-		do {
-			System.out.println("i = " + i1);
-			i1++;
-		} while (i1 <= 10);
+    public static void main(String[] args) {
+        // while 和do while的区别
+        int i1 = 11;
+        do {
+            System.out.println("i = " + i1);
+            i1++;
+        } while (i1 <= 10);
 
-		System.out.println("---------------------");
+        System.out.println("---------------------");
 
-		int i2 = 11;
-		while (i2 <= 10) {
-			System.out.println("i2 = " + i2);
-			i2++;
-		}
+        int i2 = 11;
+        while (i2 <= 10) {
+            System.out.println("i2 = " + i2);
+            i2++;
+        }
 
-		int i3 = 0;
-		//for (int i3 = 1; i3 <= 10; i3++) { // error for 循环里面定义的i3 作用域在for循环代码块里里面,但是确是定义在
-		for (i3 = 1; i3 <= 10; i3++) {
-			System.out.println("i3 = " + i3);
-		}
-		System.out.println("i3 = " + i3); // for语句执行后变量会被释放,不能再使用
-		System.out.println("-------------------");
+        int i3 = 0;
+        //for (int i3 = 1; i3 <= 10; i3++) { // error for 循环里面定义的i3 作用域在for循环代码块里里面,但是确是定义在
+        for (i3 = 1; i3 <= 10; i3++) {
+            System.out.println("i3 = " + i3);
+        }
+        System.out.println("i3 = " + i3); // for语句执行后变量会被释放,不能再使用
+        System.out.println("-------------------");
 
-		int i4 = 1;
-		while (i4 <= 10) {
-			System.out.println("i4 = " + i4);
-			i4++;
-		}
-		System.out.println("i = " + i4);// while语句执行后,初始化变量还可以继续使用
-		System.out.println("-------------------");
+        int i4 = 1;
+        while (i4 <= 10) {
+            System.out.println("i4 = " + i4);
+            i4++;
+        }
+        System.out.println("i = " + i4);// while语句执行后,初始化变量还可以继续使用
+        System.out.println("-------------------");
 
-		// while语句的无限循环
+        // while语句的无限循环
 
 /*		while (true) {
 			System.out.println("hello world");
 		}*/
 
-		// for语句的无限循环
-		/*
-		 * for (;;) { System.out.println("hello world"); }
-		 */
-	}
+        // for语句的无限循环
+        /*
+         * for (;;) { System.out.println("hello world"); }
+         */
+    }
 }

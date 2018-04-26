@@ -3,13 +3,12 @@ package com.thinktik.demo08.finals;
 /**
  * @author think
  * 2018年1月17日下午11:05:15
- * 
  */
 class Demo1_Final {
-	public static void main(String[] args) {
-		Son s = new Son();
-		s.print();
-	}
+    public static void main(String[] args) {
+        Son s = new Son();
+        s.print();
+    }
 }
 /*
 * A:final概述
@@ -23,16 +22,17 @@ class Demo1_Final {
 */
 
 final class Father {
-	public void print() {
-		System.out.println("访问底层数据资源");
-	}
+    public void print() {
+        System.out.println("访问底层数据资源");
+    }
 }
 
 class Son /*extends Father*/ {
-	final int NUM = 10;						//常量命名规范,如果是一个单词,所有字母大写,如果是多个单词,每个单词都大写,中间用下划线隔开
-	public static final double PI = 3.14;	//final修饰变量叫做常量,一般会与public static共用
-	public void print() {
-		//NUM = 20;
-		System.out.println(NUM);
-	}
+    public static final double PI = 3.14;    //final修饰变量叫做常量,一般会与public static共用
+    final int NUM = 10;                        //常量命名规范,如果是一个单词,所有字母大写,如果是多个单词,每个单词都大写,中间用下划线隔开
+
+    public void print() {
+        //NUM = 20;
+        System.out.println(NUM);
+    }
 }

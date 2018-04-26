@@ -1,13 +1,14 @@
 package com.thinktik.demo24.pattern.singlton;
 
 public class HungrySinglton {
-	private static HungrySinglton instance = new HungrySinglton();
+    private static HungrySinglton instance = new HungrySinglton();
 
-	private HungrySinglton (){}
+    private HungrySinglton() {
+    }
 
-	public static HungrySinglton getInstance() {
-		return instance;
-	}
+    public static HungrySinglton getInstance() {
+        return instance;
+    }
 }
 
 

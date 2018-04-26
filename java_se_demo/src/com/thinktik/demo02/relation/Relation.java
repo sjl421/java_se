@@ -5,13 +5,13 @@ package com.thinktik.demo02.relation;
  * ==,!=,>,>=,<,<= 判断
  */
 public class Relation {
-	public static void main(String[] args) {
-		// ==,!=,>,>=,<,<=
-		System.out.println(4 == 3);
-		System.out.println(4 != 3);
-		System.out.println(4 > 4);
-		System.out.println(4 >= 4);
-		System.out.println(4 < 3);
-		System.out.println(4 <= 3);
-	}
+    public static void main(String[] args) {
+        // ==,!=,>,>=,<,<=
+        System.out.println(4 == 3);
+        System.out.println(4 != 3);
+        System.out.println(4 > 4);
+        System.out.println(4 >= 4);
+        System.out.println(4 < 3);
+        System.out.println(4 <= 3);
+    }
 }
