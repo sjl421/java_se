@@ -6,3 +6,5 @@
 ### project index
 
 - demo01 java入门 编写第一个java程序打出hello world
+
+- demo23 多线程
