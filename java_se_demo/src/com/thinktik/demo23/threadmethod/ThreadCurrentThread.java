@@ -1,23 +1,18 @@
 package com.thinktik.demo23.threadmethod;
 
 public class ThreadCurrentThread {
-
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         new Thread() {
+            @Override
             public void run() {
-                System.out.println(getName() + "....aaaaaa");
+                System.out.println(getName() + "...Thread01");
             }
         }.start();
 
 
-        new Thread(new Runnable() {
-            public void run() {
-                //Thread.currentThread()获取当前正在执行的线程
-                System.out.println(Thread.currentThread().getName() + "...bb");
-            }
+        new Thread(() -> {
+            //Thread.currentThread()获取当前正在执行的线程
+            System.out.println(Thread.currentThread().getName() + "...Thread02");
         }).start();
 
         Thread.currentThread().setName("我是主线程");

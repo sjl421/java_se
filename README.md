@@ -4,11 +4,9 @@
 大家，能够给大家一些参考，也是我喜闻乐见的一件事。
 
 ### project index
-
 - demo01 java入门 编写第一个java程序打出hello world
-
 - demo23 多线程
-
-     - 实现多线程的3种方式
+     - 实现多线程的3种方式：继承Thread、实现Runnable,实现Callable
+     - 多线程的常用方法特性
      - 线程池
      - 锁

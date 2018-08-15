@@ -1,4 +1,4 @@
-package com.thinktik.demo23.thread;
+package com.thinktik.demo23.threadmethod;
 
 import java.io.IOException;
 
