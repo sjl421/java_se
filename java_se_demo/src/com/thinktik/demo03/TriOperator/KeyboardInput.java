@@ -1,7 +1,5 @@
 package com.thinktik.demo03.TriOperator;
 
-import org.junit.Test;
-
 import java.util.Scanner;
 
 /**
@@ -14,7 +12,7 @@ public class KeyboardInput {
     /*
      * A:案例演示 键盘录入练习：键盘录入两个数据，比较这两个数据是否相等 B:案例演示 键盘录入练习：键盘录入三个数据，获取这三个数据中的最大值
      */
-    @Test
+
     public void test1() {
         Scanner sc = new Scanner(System.in); // 创建键盘录入对象
 
@@ -46,7 +44,7 @@ public class KeyboardInput {
      * A:案例演示 键盘录入练习：键盘录入两个数据，并对这两个数据求和，输出其结果 B:案例演示 键盘录入练习：键盘录入两个数据，获取这两个数据中的最大值
      *
      */
-    @Test
+
     public void test02() {
         Scanner sc = new Scanner(System.in); // 创建键盘录入对象
 

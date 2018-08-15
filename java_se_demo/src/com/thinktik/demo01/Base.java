@@ -19,7 +19,6 @@ public class Base {
         // print 不换行 println 结果换行
         System.out.println("a=" + a + " b=" + b);
 
-
         int x = 4;
         int y = (x++) + (++x) + (x * 6);  // 4   6 36  46
         System.out.println("x=" + x + ",y=" + y);

@@ -1,6 +1,5 @@
 package com.thinktik.demo27;
 
-import org.junit.Test;
 
 import java.nio.ByteBuffer;
 
@@ -18,7 +17,7 @@ import java.nio.ByteBuffer;
  *  capacity:容量:表示缓冲区中最大存储数据的容量，一旦声明不能改变
  */
 public class NIODemo03 {
-    @Test
+
     public void testBuffer() {
         // 1:分配一个指定大小的缓冲区
         ByteBuffer buffer = ByteBuffer.allocate(1024);
