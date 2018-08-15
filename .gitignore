@@ -1,9 +1,13 @@
+/.idea/
+*.iml
 /Servers/
 /.metadata/
 /RemoteSystemsTempFiles/
-/.recommenders/
+/.recommenders
 /bin/
-/.settings/
+/.settings
+
 /.classpath
+
 /.project
 
