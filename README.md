@@ -8,3 +8,7 @@
 - demo01 java入门 编写第一个java程序打出hello world
 
 - demo23 多线程
+
+     - 实现多线程的3种方式
+     - 线程池
+     - 锁
