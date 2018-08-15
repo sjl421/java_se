@@ -1,19 +1,8 @@
-# java_se
+## java se project 说明
 
-## demo01 第一个java程序
-- hello world 
+这个是我刚入门java时记录的学习代码，供自己有些时候遗忘了哪些知识点后翻阅参考。当然如果可以帮助到
+大家，能够给大家一些参考，也是我喜闻乐见的一件事。
 
-## demo02
+### project index
 
-
-
-
-
-## java_se_demo04
-- GOTO 演示
-
-
-## java_se_demo29
-- java NIO
-
-
+- demo01 java入门 编写第一个java程序打出hello world
