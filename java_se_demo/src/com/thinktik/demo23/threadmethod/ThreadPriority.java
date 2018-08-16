@@ -1,20 +1,26 @@
 package com.thinktik.demo23.threadmethod;
 
+/**
+ * 线程优先级
+ */
 public class ThreadPriority {
 
     /**
      * @param args
      */
     public static void main(String[] args) {
+        
         Thread t1 = new Thread() {
+            @Override
             public void run() {
                 for (int i = 0; i < 100; i++) {
-                    System.out.println(getName() + "...aaaaaaaaa");
+                    System.out.println(getName() + "...aa");
                 }
             }
         };
 
         Thread t2 = new Thread() {
+            @Override
             public void run() {
                 for (int i = 0; i < 100; i++) {
                     System.out.println(getName() + "...bb");

@@ -18,26 +18,24 @@ public class ThreadTicket01 {
 		t1.start();
 		t1.start();*/
     }
-
-}
-
-class MyTicket implements Runnable {
-    private int tickets = 100;
-
-    @Override
-    public void run() {
-        while (true) {
-            synchronized (this) {
-                if (tickets <= 0) {
-                    break;
+    
+    static class MyTicket implements Runnable {
+        private int tickets = 100;
+        
+        @Override
+        public void run() {
+            while (true) {
+                synchronized (this) {
+                    if (tickets <= 0) {
+                        break;
+                    }
+                    try {
+                        Thread.sleep(10);                //线程1睡,线程2睡,线程3睡,线程4睡
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(Thread.currentThread().getName() + "...这是第" + tickets-- + "号票");
                 }
-                try {
-                    Thread.sleep(10);                //线程1睡,线程2睡,线程3睡,线程4睡
-                } catch (InterruptedException e) {
-
-                    e.printStackTrace();
-                }
-                System.out.println(Thread.currentThread().getName() + "...这是第" + tickets-- + "号票");
             }
         }
     }

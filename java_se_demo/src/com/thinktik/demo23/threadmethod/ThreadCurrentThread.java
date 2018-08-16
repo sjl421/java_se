@@ -1,5 +1,8 @@
 package com.thinktik.demo23.threadmethod;
 
+/**
+ * 当前线程
+ */
 public class ThreadCurrentThread {
     public static void main(String[] args) {
         new Thread() {

@@ -1,5 +1,8 @@
 package com.thinktik.demo23.syn;
 
+/**
+ * 死锁
+ */
 public class ThreadDeadLock {
 
     /**

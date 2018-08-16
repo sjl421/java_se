@@ -18,8 +18,12 @@ public class ThreadDemo07 {
             num++;
         }
         
-        @Override
-        public void run() {
+        @Override public void run() {
+            try {
+                Thread.currentThread().sleep(2);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             System.out.println("num:" + num + " 子线程ID:" + Thread.currentThread().getId());
         }
     }
