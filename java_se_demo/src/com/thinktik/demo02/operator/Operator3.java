@@ -1,13 +1,13 @@
-package com.thinktik.demo01;
+package com.thinktik.demo02.operator;
 
 /**
  * @author think
  * 2018年1月13日下午7:38:58
  */
-public class Base {
+public class Operator3 {
     public static void main(String[] args) {
         int a = 10;
-        int b = 8;
+        int b;
         /*
          * 标识符的命名规则注意事项? 只能用字母大小写 ,数字 ,$_ 两个符号 不能以数字开头 不能用关键字.
          */

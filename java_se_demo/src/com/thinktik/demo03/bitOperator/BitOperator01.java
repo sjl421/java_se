@@ -4,7 +4,7 @@ package com.thinktik.demo03.bitOperator;
  * @author think 2018年1月13日下午9:50:19
  * 位操作
  */
-public class BitOperator {
+public class BitOperator01 {
     public static void main(String[] args) {
         /*
          * &,|,^,~ 的用法
