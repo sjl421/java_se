@@ -70,7 +70,7 @@
     - StringBuffer类及其方法，String与StringBuffer
     - 基本数据类型，基本数据类型的装箱与拆箱
 - demo12
-    - 
+    - 内省
 - demo13
     - java常用的工具类。Math，Random,System,BigInteger,Date,SimpleDateFormat,Calendar
     - 正则表达式
