@@ -25,7 +25,6 @@ public class Test2Array {
                 sum = sum + arr[i][j];                    //累加
             }
         }
-
         System.out.println(sum);
     }
 }

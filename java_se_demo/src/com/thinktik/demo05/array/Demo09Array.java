@@ -29,7 +29,6 @@ public class Demo09Array {
                 max = arr[i];                            //max记录住较大的
             }
         }
-
         return max;
     }
 }
