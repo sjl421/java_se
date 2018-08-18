@@ -31,7 +31,7 @@
     - 数组越界异常
     - 多维数组
     - 数组简单操作
-- demo07
+- demo06
     - 面向对象 封装,继承，多态
     - 类与对象
     - 成员变量,局部变量，成员方法
@@ -69,6 +69,8 @@
     - 数组排序
     - StringBuffer类及其方法，String与StringBuffer
     - 基本数据类型，基本数据类型的装箱与拆箱
+- demo12
+    - 
 - demo13
     - java常用的工具类。Math，Random,System,BigInteger,Date,SimpleDateFormat,Calendar
     - 正则表达式
@@ -84,6 +86,7 @@
     - list的几种子类及其结构
 - demo16
     - Set集合和它的几种子类型
+    - queue队列
 - demo17
     - Map集合和它的几种子类型
     - 接口Comparator
@@ -140,3 +143,5 @@
 - demo29
     - java各版本新特性 
         - java8新特性
+- demo30
+    - 算法题
