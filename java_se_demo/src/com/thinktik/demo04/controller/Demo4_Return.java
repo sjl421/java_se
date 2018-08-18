@@ -4,7 +4,7 @@ package com.thinktik.demo04.controller;
  * @author think
  * 2018年1月16日下午11:43:46
  */
-class Demo4_Return {
+class Demo4Return {
     public static void main(String[] args) {
         for (int i = 1; i <= 10; i++) {
             if (i == 4) {

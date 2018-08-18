@@ -1,4 +1,4 @@
-package com.thinktik.demo04.controller;
+package com.thinktik.demo04.forfor;
 
 /**
  * @author think

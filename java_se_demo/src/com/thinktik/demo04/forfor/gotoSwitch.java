@@ -6,7 +6,7 @@ package com.thinktik.demo04.forfor;
  * @author thinktik
  */
 public class gotoSwitch {
-
+    
     /**
      * 数字转换为汉语金额数字
      *
@@ -15,13 +15,13 @@ public class gotoSwitch {
      */
     public static String genCnNum(Long num) {
         StringBuffer sb = new StringBuffer();
-        String snum = String.valueOf(num);
-        for (char c : snum.toCharArray()) {
+        String sum = String.valueOf(num);
+        for (char c : sum.toCharArray()) {
             sb.append(num2Cn(c));
         }
         return sb.toString();
     }
-
+    
     /**
      * 字符数字转换为汉语金额数字
      *
@@ -66,7 +66,7 @@ public class gotoSwitch {
         }
         return res;
     }
-
+    
     public static void main(String[] args) {
         System.out.println(genCnNum(4523586022L));
     }
