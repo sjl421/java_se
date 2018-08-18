@@ -19,7 +19,6 @@ abstract class Person3 {
 }
 
 class PersonDemo {
-
     public void method(Person3 p) {        //Person p = new Student();		//父类引用指向子类对象
         p.show();
     }
@@ -30,7 +29,6 @@ class PersonDemo {
                 System.out.println(s);
             }
         };
-
         p.show();
     }
 }

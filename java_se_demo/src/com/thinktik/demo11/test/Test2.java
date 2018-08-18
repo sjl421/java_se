@@ -7,7 +7,6 @@ import java.util.Scanner;
  * 2018年1月18日下午10:08:34
  */
 public class Test2 {
-
     /**
      * * A:案例演示
      * <p>
@@ -38,7 +37,6 @@ public class Test2 {
     public static String revString(String line) {
         StringBuffer sb = new StringBuffer(line);            //将字符串转换为StringBuffer对象
         sb.reverse();                                        //将缓冲区的内容反转
-
         return sb.toString();
     }
 }

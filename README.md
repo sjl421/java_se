@@ -58,16 +58,84 @@
     - 成员变量，成员方法在多态中的使用
     - 抽象类
     - 接口
+- demo10
+    - 内部类
+        - 局部内部类
+        - 静态内部类
+        - 匿名内部类
+        - 成员内部类
+    - java包规则
+- demo11
+    - 数组排序
+    - StringBuffer类及其方法，String与StringBuffer
+    - 基本数据类型，基本数据类型的装箱与拆箱
+- demo13
+    - java常用的工具类。Math，Random,System,BigInteger,Date,SimpleDateFormat,Calendar
+    - 正则表达式
+- demo14
+    - 集合，List,Set,Map,Vector
+    - Iterator,ListIterator
+- demo15 
+    - 泛型
+    - 增强for循环
+    - 静态导入
+    - 可变参数
+    - list与数组转换
+    - list的几种子类及其结构
+- demo16
+    - Set集合和它的几种子类型
+- demo17
+    - Map集合和它的几种子类型
+    - 接口Comparator
+    - equals与hashcode
+- demo18
+    - 异常Exception
+    - 错误Error
+    - 抛出异常Throwable
+    - try-catch
+    - finally
+    - 文件操作
+- demo19
+    - 数据流：输入流,输出流.
+    - 文件读写和copy
+    - 文件编码转换，UTF8和GBK
+- demo20
+    - FileReader与FileWriter
+    - BufferedReader与LineNumberReader
+    - 递归函数
+- demo21
+    - 几种常见输入输出流
+- demo22
+    - java se基础回顾总结
 - demo23 多线程
-     - 实现多线程的3种方式
+    - 实现多线程的3种方式
         - 继承Thread
         - 实现Runnable
         - 实现Callable
-     - 多线程的常用方法特性
+    - 多线程的常用方法特性
         - join
         - yield
         - sleep
-     - 线程池
-     - 同步锁
-        - 同步方法
-        - 同步代码块
+    - 线程池
+    - 同步锁
+    - 同步方法
+    - 同步代码块
+- demo24
+    - 设计模式
+    - 线程高级特性，重入锁，线程组
+    - 定时器,运行时
+- demo25
+    - socket
+    - udp与tcp
+- demo26
+    - 枚举
+    - 反射
+    - 代理模式
+    - 模板模式
+- demo27
+    - NIO
+- demo28
+    - java注解
+    - java断言
+- demo29
+    - java8新特性 

@@ -1,9 +1,8 @@
 package com.thinktik.demo10.innerclass.annoyclass;
 
 interface Inter2 {
-    public void show1();
-
-    public void show2();
+    void show1();
+    void show2();
 }
 
 /**

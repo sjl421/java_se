@@ -31,7 +31,7 @@ class Outer1 {
         }
     }
 
-    class Inner3 {//静态内部类
+    class Inner3 {//成员内部类
 
         public /*static*/ void method() {
             System.out.println("method");
