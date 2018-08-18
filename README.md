@@ -38,6 +38,12 @@
     - 变量权限修饰符 private,protected,default,public
     - this 
     - 匿名对象
+- demo07
+    - 构造方法，有参构造，无参构造
+    - 方法重载
+    - get/set方法
+    - 对象中成员变量的初始化和默认值
+    - 静态成员变量，静态方法
 - demo23 多线程
      - 实现多线程的3种方式
         - 继承Thread
