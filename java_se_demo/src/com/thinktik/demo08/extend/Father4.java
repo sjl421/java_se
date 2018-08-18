@@ -1,4 +1,7 @@
 package com.thinktik.demo08.extend;
 
-public class Father4 {
+class Father4 {
+    public void print() {
+        System.out.println("Fu print");
+    }
 }

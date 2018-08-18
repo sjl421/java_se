@@ -1,4 +1,4 @@
 package com.thinktik.demo08.extend;
 
-public class Son {
+class Son extends Father {
 }

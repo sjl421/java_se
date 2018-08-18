@@ -1,4 +1,7 @@
 package com.thinktik.demo08.extend;
 
-public class DemoC {
+class DemoC extends DemoB {
+    public void print() {
+        System.out.println("DemoC");
+    }
 }

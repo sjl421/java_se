@@ -1,4 +1,6 @@
 package com.thinktik.demo08.extend;
 
-public class Father1 {
+class Father1 {
+    int num1 = 10;
+    int num2 = 30;
 }

@@ -1,4 +1,7 @@
 package com.thinktik.demo08.finals;
 
-public class Father {
+final class Father {
+    public void print() {
+        System.out.println("访问底层数据资源");
+    }
 }

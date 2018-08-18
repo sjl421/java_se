@@ -1,4 +1,9 @@
 package com.thinktik.demo08.extend;
 
-public class Father {
+class Father {
+    private String name;
+
+    private void show() {
+        System.out.println("Hello World!");
+    }
 }
