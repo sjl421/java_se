@@ -22,17 +22,12 @@ class Demo4_If {
     public static void main(String[] args) {
         int x = 10;
         int y = 20;
-        int z;
 
         if (x > y) {
-            //z = x;
             System.out.println(x + "是最大值");
         } else {
-            //z = y;
             System.out.println(y + "是最大值");
         }
-
-        //System.out.println(z);
 
         int a = 20;
         int b = 30;

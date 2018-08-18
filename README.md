@@ -4,7 +4,18 @@
 大家，能够给大家一些参考，也是我喜闻乐见的一件事。
 
 ### project index
-- demo01 java入门 编写第一个java程序打出hello world
+- demo01 
+    - java入门 编写第一个java程序打出hello world
+- demo02
+    - java基本数据类型与值域
+    - 赋值
+    - 类型转换
+    - 运算
+- demo03
+    - 字节操作 与，或，非
+    - 逻辑操作if else
+    - 逻辑操作 与，或，非
+    - 三元运算符
 - demo23 多线程
      - 实现多线程的3种方式
         - 继承Thread

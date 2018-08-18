@@ -45,7 +45,7 @@ public class ConstentDemo { //constant 常量学习
         //	    2.修饰方法
         //	    	final方法不能被子类方法覆盖，但可以被继承。
         //	    3.修饰类
-        //	    	final类不能被继承，没有子类，final类中所有方法都是final的。
+        //	    	final类不能被继承，没有子类，final类中所有方法默认都是final的。
         //
         //
         //	    const是Java预留关键字，用于后期扩展用，用法跟final相似，不常用

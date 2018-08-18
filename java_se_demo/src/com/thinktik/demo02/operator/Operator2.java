@@ -30,9 +30,9 @@ public class Operator2 {
         System.out.println("b = " + b2);
 
         //第一题
-        int a3 = 10;
+        int a3;
         int b3 = 10;
-        int c3 = 10;
+        int c3;
         a3 = b3++;                    //a = 10 ,b = 11
         c3 = --a3;                    //a = 9, c = 9
         b3 = ++a3;                    //a = 10, b = 10

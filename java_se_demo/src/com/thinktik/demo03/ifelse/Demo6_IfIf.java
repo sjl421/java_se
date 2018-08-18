@@ -21,7 +21,6 @@ class Demo6_IfIf {
             } else {
                 System.out.println(c + "是最大值");
             }
-
         } else {    //b >= a
             if (b > c) {
                 System.out.println(b + "是最大值");

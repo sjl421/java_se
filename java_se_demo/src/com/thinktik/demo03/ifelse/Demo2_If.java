@@ -10,7 +10,6 @@ package com.thinktik.demo03.ifelse;
 class Demo2_If {
     public static void main(String[] args) {
         int age = 17;
-
         if (age >= 18 && age <= 60) {
             System.out.println("可以浏览本网站");
             //int x = 10;				是两句话,int x声明是一句,x = 10 赋值是一句

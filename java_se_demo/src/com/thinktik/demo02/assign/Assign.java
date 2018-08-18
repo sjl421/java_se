@@ -16,11 +16,10 @@ public class Assign {
         short s = 1;
         //s = s+1;         //error: 整数默认为int,当short与int进行运算的时候,会提升为int类型,两个int类型相加的结果也是int类型
         s = (short) (s + 1);//解決上一行的问题  但是要注意强制转换的精度问题
-        s = 1;
         s += 1; // 相当于 s = (short)(s + 1);
         System.out.println(s);
 
-        //byte b = 128;//error  默认为整数  超出了byte  -128~127的范围  会报错Type mismatch: cannot convert from int to byte 但是其实是超过了byte范围的问题
+        //byte b = 128;//error  默认为整数  超出了byte -128~127的范围  会报错Type mismatch: cannot convert from int to byte 但是其实是超过了byte范围的问题
         byte b = 127; //对比上面的代码,这个正常. 同样的道理 byte short int long 都可能会出现这样的问题.
     }
 }

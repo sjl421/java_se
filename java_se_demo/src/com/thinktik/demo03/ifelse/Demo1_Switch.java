@@ -47,7 +47,7 @@ class Demo1_Switch {
                 break;
         }
 
-        int x = 2;
+        int x = 3;
         int y = 3;
         switch (x) {
             default:

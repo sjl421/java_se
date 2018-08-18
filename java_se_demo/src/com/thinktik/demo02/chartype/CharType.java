@@ -6,7 +6,7 @@ package com.thinktik.demo02.chartype;
  */
 public class CharType {
     public static void main(String[] args) {
-        char c = 'a'; // 占2个字节  char类型是一个单一的 16 位 Unicode 字符;除了可以存放传统的ASCII字符外还可以存放中文等单一字符1
+        char c = 'a'; // 占2个字节  char类型是一个单一的 16 位 Unicode 字符;除了可以存放传统的ASCII字符外还可以存放中文等单一字符
         System.out.println(c);
         char hans = '中';//其实很多人认为char就是存英文字母的,其实是不对的,char本质上存的是单一字符
         System.out.println(hans);
