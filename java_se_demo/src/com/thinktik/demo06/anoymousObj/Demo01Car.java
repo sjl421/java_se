@@ -1,4 +1,4 @@
-package com.thinktik.demo06.anoymousClazz;
+package com.thinktik.demo06.anoymousObj;
 
 /**
  * @author think 2018年1月17日下午9:24:53

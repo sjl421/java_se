@@ -1,4 +1,4 @@
-package com.thinktik.demo06.anoymousClazz;
+package com.thinktik.demo06.anoymousObj;
 
 /*
  * A:什么是匿名对象

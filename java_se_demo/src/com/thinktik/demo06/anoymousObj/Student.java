@@ -1,4 +1,4 @@
-package com.thinktik.demo06.anoymousClazz;
+package com.thinktik.demo06.anoymousObj;
 
 /*
  * A:方法的参数是类名public void print(Student s){}//print(new Student());

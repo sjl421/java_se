@@ -4,12 +4,7 @@ package com.thinktik.demo06.obj;
  * @author think
  * 2018年1月17日下午9:16:59
  */
-class Demo2_Person {
-    public static void main(String[] args) {
-        Person p = new Person();
-        p.speak();
-    }
-}
+
 
 /*
  * A:在类中的位置不同

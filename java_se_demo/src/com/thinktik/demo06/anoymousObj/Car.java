@@ -1,4 +1,4 @@
-package com.thinktik.demo06.anoymousClazz;
+package com.thinktik.demo06.anoymousObj;
 
 public class Car {
     String color; // 颜色

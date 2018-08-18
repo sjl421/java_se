@@ -20,7 +20,7 @@ public class DemoPerson {
         //p1.speak();			    //调用行为
 
         p1.setAge(-17);
-
+        p1.speak();
         System.out.println(p1.getAge());
     }
 }
