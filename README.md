@@ -129,13 +129,13 @@
     - udp与tcp
 - demo26
     - 枚举
-    - 反射
     - 代理模式
     - 模板模式
 - demo27
     - NIO
 - demo28
     - java注解
+    - 反射
     - java断言
 - demo29
     - java各版本新特性 

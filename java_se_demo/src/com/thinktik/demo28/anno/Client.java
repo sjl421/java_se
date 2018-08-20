@@ -7,7 +7,7 @@ public class Client {
         UseAnnoDemo01 annoDemo01 = new UseAnnoDemo01();
 
         if (UseAnnoDemo01.class.isAnnotationPresent(AnnotationDef.class)) {
-            AnnotationDef annotationDef = UseAnnoDemo01.class.getAnnotation(AnnotationDef.class);
+            AnnotationDef annotationDef =UseAnnoDemo01.class.getAnnotation(AnnotationDef.class);
 
             System.out.println(annotationDef.classExplanation());
             System.out.println(annotationDef.classMessage());
