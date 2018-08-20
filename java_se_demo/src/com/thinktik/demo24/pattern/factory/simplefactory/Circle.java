@@ -1,4 +1,4 @@
-package com.thinktik.demo24.pattern.factory;
+package com.thinktik.demo24.pattern.factory.simplefactory;
 
 /**
  * @author think

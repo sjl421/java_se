@@ -1,4 +1,4 @@
-package com.thinktik.demo24.pattern.factory;
+package com.thinktik.demo24.pattern.factory.simplefactory;
 
 public class ShapeFactory {
     //使用 getShape 方法获取形状类型的对象
