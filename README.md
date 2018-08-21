@@ -110,7 +110,7 @@
     - 几种常见输入输出流
 - demo22
     - java se基础回顾总结
-- demo23 多线程
+- demo23 
     - 实现多线程的3种方式
         - 继承Thread
         - 实现Runnable
@@ -123,25 +123,26 @@
     - 同步锁
     - 同步方法
     - 同步代码块
+    - 线程高级特性，重入锁，线程组
 - demo24
     - 设计模式
-    - 线程高级特性，重入锁，线程组
     - 定时器,运行时
 - demo25
     - socket
     - udp与tcp
 - demo26
     - 枚举
-    - 反射
-    - 代理模式
-    - 模板模式
 - demo27
     - NIO
 - demo28
-    - java注解
+    - 注解
+    - 反射
     - java断言
 - demo29
     - java各版本新特性 
+        - java5新特性
+        - java6新特性
+        - java7新特性
         - java8新特性
 - demo30
     - 算法题
