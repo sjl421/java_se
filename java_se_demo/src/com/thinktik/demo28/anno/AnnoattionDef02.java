@@ -7,7 +7,7 @@ import java.lang.annotation.*;
 @Documented
 @Inherited
 public @interface AnnoattionDef02 {
-    public abstract String explanation();
+    String explanation();
 
-    public abstract String message();
+    String message();
 }

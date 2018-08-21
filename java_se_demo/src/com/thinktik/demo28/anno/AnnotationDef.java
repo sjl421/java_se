@@ -7,7 +7,7 @@ import java.lang.annotation.*;
 @Documented
 @Inherited
 public @interface AnnotationDef {
-    public String classExplanation();
+    String classExplanation();
 
-    public String classMessage();
+    String classMessage();
 }
