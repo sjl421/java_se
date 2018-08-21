@@ -16,7 +16,7 @@ import com.thinktik.demo26.bean.Person;
 public class ReflectDemo01 {
 
     public static void main(String[] args) throws ClassNotFoundException {
-        Class clazz1 = Class.forName("com.thinktik.bean.Person");
+        Class clazz1 = Class.forName("com.thinktik.demo26.bean.Person");
         Class clazz2 = Person.class;
 
         Person p = new Person();
