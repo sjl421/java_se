@@ -137,6 +137,7 @@
 - demo28
     - 注解
     - 反射
+      - synthetic
     - java断言
 - demo29
     - java各版本新特性 
