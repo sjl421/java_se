@@ -1,12 +1,10 @@
 package com.thinktik.demo01;//这是一个包的声明 包名是 com.thinktik.hello
 
 /**
- * @author think
- * 2018年1月13日下午7:27:08
- */
-/*
  * 一个java程序
- * */
+ *
+ * @author think
+ */
 public class HelloWorld2 { //这是一个类的声明,类名是Hello2	//单行注释是可以嵌套
     public static void main(String[] args) {//这是主方法,是程序的入口
         System.out.println("Hello world!");//这是输出语句,会在控制台输出一句话
