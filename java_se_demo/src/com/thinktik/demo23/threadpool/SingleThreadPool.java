@@ -1,7 +1,6 @@
 package com.thinktik.demo23.threadpool;
 
 
-import javax.jnlp.ExtendedService;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 

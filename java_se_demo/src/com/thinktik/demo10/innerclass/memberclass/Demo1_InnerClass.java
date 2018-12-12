@@ -25,8 +25,10 @@ class Outer1 {
     private int num = 10;
 
     class Inner {
+    	private int num = 5;
         public void method() {
-            System.out.println(num);
+            System.out.println(num); //访问内部类同名成员变量
+            System.out.println(Outer1.this.num); //访问外部类同名成员变量
         }
     }
 }

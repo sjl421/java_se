@@ -19,7 +19,6 @@ class Demo1_InnerClass {
 
 class Outer1 {
     static class Inner {//静态内部类
-
         public void method() {
             System.out.println("method");
         }
@@ -32,7 +31,6 @@ class Outer1 {
     }
 
     class Inner3 {//成员内部类
-
         public /*static*/ void method() {
             System.out.println("method");
         }
